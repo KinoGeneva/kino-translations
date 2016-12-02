@@ -19,6 +19,9 @@ Author URI: http://collectifwp.ch/
 add_filter( 'load_textdomain_mofile', 'load_custom_plugin_translation_file', 10, 2 );
 
 /*
+
+ * LE NOUVEAU CODE QUI MARCHE :
+
  * Replace 'textdomain' with your plugin's textdomain. e.g. 'woocommerce'. 
  * File to be named, for example, yourtranslationfile-en_GB.mo
  * File to be placed, for example, wp-content/lanaguages/textdomain/yourtranslationfile-en_GB.mo
@@ -41,6 +44,10 @@ function load_custom_plugin_translation_file( $mofile, $domain ) {
 }
 
 
+
+/**
+ * L'ANCIEN CODE QUI NE MARCHE PLUS depuis WP 4.6 ....
+ */ 
 
 // remove_action( 'bp_core_loaded', 'bp_core_load_buddypress_textdomain' );
 // = completely disables the buddypress translation

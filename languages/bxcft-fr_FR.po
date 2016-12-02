@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Xprofile Custom Fields Type\n"
+"POT-Creation-Date: 2016-12-01 02:05+0100\n"
+"PO-Revision-Date: 2016-12-01 02:08+0100\n"
+"Last-Translator: ms-studio <code@ms-studio.net>\n"
+"Language-Team: ms-studio <code@ms-studio.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bp-xprofile-custom-fields-type.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bp-xprofile-custom-fields-type.php:155
+msgid ""
+"BuddyPress Xprofile Custom Fields Type plugin needs <b>BuddyPress 2.5</b>, "
+"please install or upgrade BuddyPress."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:161
+msgid ""
+"BuddyPress Xprofile Custom Fields Type plugin needs Buddypress Xprofile "
+"Component. Please enable Xprofile first."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:362
+#: bp-xprofile-custom-fields-type.php:386
+msgid "This is a required field"
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:368
+#: bp-xprofile-custom-fields-type.php:438
+#, php-format
+msgid "Image type not allowed: (%s)."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:371
+#: bp-xprofile-custom-fields-type.php:442
+#, php-format
+msgid "Max image upload size: %s MB."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:375
+#: bp-xprofile-custom-fields-type.php:458
+#, php-format
+msgid "File type not allowed: (%s)."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:378
+#: bp-xprofile-custom-fields-type.php:462
+#, php-format
+msgid "Max file upload size: %s MB."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:409
+#: bp-xprofile-custom-fields-type.php:544
+#, php-format
+msgid "You have to be at least %s years old."
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:790
+#: classes/Bxcft_Field_Type_CheckboxAcceptance.php:201
+msgid "no"
+msgstr "non"
+
+#: bp-xprofile-custom-fields-type.php:791
+#: classes/Bxcft_Field_Type_CheckboxAcceptance.php:201
+msgid "yes"
+msgstr "oui"
+
+#: bp-xprofile-custom-fields-type.php:800
+msgid "Not empty"
+msgstr ""
+
+#: bp-xprofile-custom-fields-type.php:830
+msgid "Select2"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:17
+msgctxt "xprofile field type"
+msgid "Birthdate Selector"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:38
+msgid "January"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:39
+msgid "February"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:40
+msgid "March"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:41
+msgid "April"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:42
+msgid "May"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:43
+msgid "June"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:44
+msgid "July"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:45
+msgid "August"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:46
+msgid "September"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:47
+msgid "October"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:48
+msgid "November"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:49
+msgid "December"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:135
+msgid "Show age (hide birthdate):"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:138
+msgid "Check this if you want to show age instead of birthdate:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:151
+msgid "Define a minimum age:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:154
+msgid "Minimum age:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Birthdate.php:213
+#: classes/Bxcft_Field_Type_CheckboxAcceptance.php:60
+#: classes/Bxcft_Field_Type_Color.php:48
+#: classes/Bxcft_Field_Type_Datepicker.php:53
+#: classes/Bxcft_Field_Type_DecimalNumber.php:79
+#: classes/Bxcft_Field_Type_Email.php:53
+#: classes/Bxcft_Field_Type_MultiSelectCustomPostType.php:129
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:137
+#: classes/Bxcft_Field_Type_NumberMinMax.php:85
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:114
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:114
+#: classes/Bxcft_Field_Type_Slider.php:87 classes/Bxcft_Field_Type_Web.php:53
+msgid "(required)"
+msgstr "(obligatoire)"
+
+#: classes/Bxcft_Field_Type_Birthdate.php:291
+#: classes/Bxcft_Field_Type_Birthdate.php:302
+#: classes/Bxcft_Field_Type_Birthdate.php:310
+msgid "----"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_CheckboxAcceptance.php:12
+msgctxt "xprofile field type"
+msgid "Checkbox Acceptance"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_CheckboxAcceptance.php:114
+msgid ""
+"Use this field to write a text that should be displayed beside the checkbox:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Color.php:12
+msgctxt "xprofile field type"
+msgid "Color (HTML5 field)"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Datepicker.php:12
+msgctxt "xprofile field type"
+msgid "Datepicker (HTML5 field)"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_DecimalNumber.php:12
+msgid "Decimal number (HTML5 field)"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_DecimalNumber.php:127
+msgid "Select max number of decimals:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Email.php:12
+msgctxt "xprofile field type"
+msgid "Email (HTML5 field)"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_File.php:12
+msgctxt "xprofile field type"
+msgid "File"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_File.php:58 classes/Bxcft_Field_Type_File.php:124
+msgid "Download file"
+msgstr "Télécharger le fichier"
+
+#: classes/Bxcft_Field_Type_File.php:60 classes/Bxcft_Field_Type_File.php:67
+msgid "Check this to delete this file"
+msgstr "Cochez cette case pour supprimer ce fichier"
+
+#: classes/Bxcft_Field_Type_Image.php:12
+msgctxt "xprofile field type"
+msgid "Image"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Image.php:60 classes/Bxcft_Field_Type_Image.php:67
+msgid "Check this to delete this image"
+msgstr "Cochez cette case pour supprimer cette image"
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomPostType.php:12
+msgctxt "xprofile field type"
+msgid "Custom Post Type Multiselector"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomPostType.php:87
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:79
+msgid ""
+"There is no custom post type. You need to create at least one to use this "
+"field."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomPostType.php:89
+#: classes/Bxcft_Field_Type_MultiSelectCustomPostType.php:92
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:81
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:84
+msgid "Select a custom post type:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomPostType.php:94
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:96
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:86
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:117
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:86
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:117
+msgid "Select..."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:14
+msgctxt "xprofile field type"
+msgid "Custom Taxonomy Multiselector"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:89
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:79
+msgid ""
+"There is no custom taxonomy. You need to create at least one to use this "
+"field."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:91
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:94
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:81
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:84
+msgid "Select a custom taxonomy:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_MultiSelectCustomTaxonomy.php:103
+msgid "Allow users to add new tags:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_NumberMinMax.php:12
+msgid "Number within min/max values (HTML5 field)"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_NumberMinMax.php:144
+msgid "Write min and max values. You can leave any field blank if you want."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_NumberMinMax.php:148
+#: classes/Bxcft_Field_Type_Slider.php:150
+msgid "Minimum:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_NumberMinMax.php:153
+#: classes/Bxcft_Field_Type_Slider.php:155
+msgid "Maximum:"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_NumberMinMax.php:161
+#: classes/Bxcft_Field_Type_Slider.php:163
+msgid "Min value cannot be bigger than max value."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_NumberMinMax.php:162
+msgid "You have to fill at least one field."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:12
+msgctxt "xprofile field type"
+msgid "Custom Post Type Selector"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_SelectCustomPostType.php:208
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:205
+msgid "--"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_SelectCustomTaxonomy.php:12
+msgctxt "xprofile field type"
+msgid "Custom Taxonomy Selector"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Slider.php:12
+msgid "Range input (HTML5 field)"
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Slider.php:146
+msgid "Write min and max values."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Slider.php:164
+msgid "You have to fill the two fields."
+msgstr ""
+
+#: classes/Bxcft_Field_Type_Web.php:12
+msgctxt "xprofile field type"
+msgid "Website (HTML5 field)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BuddyPress Xprofile Custom Fields Type"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://donmik.com/en/buddypress-xprofile-custom-fields-type/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"BuddyPress installation required!! This plugin add custom field types to "
+"BuddyPress Xprofile extension. Field types are: Birthdate, Email, Url, "
+"Datepicker, ..."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "donmik"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://donmik.com"
+msgstr ""

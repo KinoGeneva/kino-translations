@@ -9,17 +9,7 @@ Author: Collectif WP
 Author URI: http://collectifwp.ch/
 */
 
-/* Custom translation strings
- */
-
 /*
- * New technique
- */
-
-add_filter( 'load_textdomain_mofile', 'load_custom_plugin_translation_file', 10, 2 );
-
-/*
-
  * LE NOUVEAU CODE QUI MARCHE :
 
  * Replace 'textdomain' with your plugin's textdomain. e.g. 'woocommerce'. 
@@ -28,27 +18,43 @@ add_filter( 'load_textdomain_mofile', 'load_custom_plugin_translation_file', 10,
  */
  
 function load_custom_plugin_translation_file( $mofile, $domain ) { 
-
+	
+	// folder location
+	$folder = WP_PLUGIN_DIR . '/kinogeneva-translations/languages/';
+	
+	// filename ending
+	$file = '-' . get_locale() . '.mo';
+	
 	if ( 'buddypress' === $domain ) {
 	  
-	    $mofile = WP_PLUGIN_DIR . '/kinogeneva-translations/languages/buddypress-' . get_locale() . '.mo';
+	    $mofile = $folder.$domain.$file;
 	    
-	} else if ('bxcft' === $domain) {
+	} else if ( 'bxcft' === $domain ) {
 	
-			$mofile = WP_PLUGIN_DIR . '/kinogeneva-translations/languages/bxcft-' . get_locale() . '.mo';
+			$mofile = $folder.$domain.$file;
 			
+	} else if ( 'wp-user-groups' === $domain ) {
+	
+			$mofile = $folder.$domain.$file;
+			
+	} else if ( 'kleo_framework' === $domain ) {
+			
+			$mofile = $folder.$domain.$file;
+	
 	}
 
   return $mofile;
 
 }
+add_filter( 'load_textdomain_mofile', 'load_custom_plugin_translation_file', 10, 2 );
+
 
 // chargement du fichier de personnalisation des localisations
 function load_custom_kinogeneva_translation_file() {
 	$mofile = WP_PLUGIN_DIR . '/kinogeneva-translations/languages/kinogeneva-' . get_locale() . '.mo';
 	load_textdomain( 'kinogeneva', $mofile );
 }
-add_action( 'init', 'load_custom_kinogeneva_translation_file' );
+ add_action( 'init', 'load_custom_kinogeneva_translation_file' );
 
 
 
@@ -62,19 +68,7 @@ add_action( 'init', 'load_custom_kinogeneva_translation_file' );
 // add_action( 'plugins_loaded', 'kino_load_textdomain', 1 ); // must be earlier than 10!
 
 function kino_load_textdomain() {
-			
-//			load_plugin_textdomain( 
-//				'buddypress',
-//				false, 
-//				'kinogeneva-translations/languages/' // relative to WP_PLUGIN_DIR
-//			);
-			
-			load_plugin_textdomain( 
-				'wp-user-groups',
-				false, 
-				'kinogeneva-translations/languages/'
-			);
-			
+						
 			// BP group announcements
 			load_plugin_textdomain( 
 				'bpga',

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Kleo v2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-12-03 21:50+0100\n"
+"PO-Revision-Date: 2016-12-03 22:17+0100\n"
 "Last-Translator: ms-studio <code@ms-studio.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "Site web"
 # @ kleo_framework
 #: page-parts/general-popups.php:22
 msgid "Username"
-msgstr "Identifiant"
+msgstr "Identifiant ou email"
 
 # @ kleo_framework
 #: functions.php:736

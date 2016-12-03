@@ -51,6 +51,7 @@ function load_custom_kinogeneva_translation_file() {
 add_action( 'init', 'load_custom_kinogeneva_translation_file' );
 
 
+
 /**
  * L'ANCIEN CODE QUI NE MARCHE PLUS depuis WP 4.6 ....
  */ 

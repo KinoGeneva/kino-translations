@@ -53,3 +53,6 @@ publish
 script-ck.js
 codekit-config.json
 kino-translations.esproj
+kino-translations.esproj/Project.espressostorage
+Project.espressostorage
+temp-gitignored

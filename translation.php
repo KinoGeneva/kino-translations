@@ -43,6 +43,12 @@ function load_custom_plugin_translation_file( $mofile, $domain ) {
 
 }
 
+// chargement du fichier de personnalisation des localisations
+function load_custom_kinogeneva_translation_file() {
+	$mofile = WP_PLUGIN_DIR . '/kinogeneva-translations/languages/kinogeneva-' . get_locale() . '.mo';
+	load_textdomain( 'kinogeneva', $mofile );
+}
+add_action( 'init', 'load_custom_kinogeneva_translation_file' );
 
 
 /**

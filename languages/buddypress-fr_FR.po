@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - BuddyPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-09 20:08+0100\n"
+"PO-Revision-Date: 2016-12-09 20:27+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1564,11 +1564,9 @@ msgid ""
 "\n"
 "After you activate, you can visit your site at <a href=\"{{{user-site.url}}}\">{{{user-site.url}}}</a>."
 msgstr ""
-"Merci de vous être enregistré! \n"
+"Merci d’avoir créé un compte sur la plateforme KinoGeneva. Vous devez activer votre compte en cliquant sur le lien suivant:\n"
 "\n"
-"Pour compléter l'activation de  votre compte et de votre site, veuillez suivre le lien suivant <a href=\"{{{activate-site.url}}}\">{{{activate-site.url}}}</a>.\n"
-"\n"
-"Une fois votrre compte activé, vous pourrez accéder à votre site ici: <a href=\"{{{user-site.url}}}\">{{{user-site.url}}}</a>."
+"<a href=\"{{{activate-site.url}}}\">{{{activate-site.url}}}</a>."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3353
@@ -1579,11 +1577,9 @@ msgid ""
 "\n"
 "After you activate, you can visit your site at {{{user-site.url}}}."
 msgstr ""
-"Merci de vous être enregistré! \n"
+"Merci d’avoir créé un compte sur la plateforme KinoGeneva. Vous devez activer votre compte en cliquant sur le lien suivant:\n"
 "\n"
-"Pour compléter l'activation de  votre compte et de votre site, veuillez vous rendre à cette adresse: {{{activate-site.url}}}\n"
-"\n"
-"Une fois votrre compte activé, vous pourrez accéder à votre site depuis {{{user-site.url}}}."
+"{{{activate-site.url}}}."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3335
@@ -1627,9 +1623,9 @@ msgid ""
 "\n"
 "To complete the activation of your account, go to the following link: <a href=\"{{{activate.url}}}\">{{{activate.url}}}</a>"
 msgstr ""
-"Merci de vous être enregistré! \n"
+"Merci d’avoir créé un compte sur la plateforme KinoGeneva. Vous devez activer votre compte en cliquant sur le lien suivant:\n"
 "\n"
-"Pour compléter l'activation de  votre compte, veuillez suivre le lien suivant: <a href=\"{{{activate.url}}}\">{{{activate.url}}}</a>"
+"<a href=\"{{{activate.url}}}\">{{{activate.url}}}</a>"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3345
@@ -1638,9 +1634,9 @@ msgid ""
 "\n"
 "To complete the activation of your account, go to the following link: {{{activate.url}}}"
 msgstr ""
-"Merci de vous être enregistré! \n"
+"Merci d’avoir créé un compte sur la plateforme KinoGeneva. Vous devez activer votre compte en cliquant sur le lien suivant:\n"
 "\n"
-"Pour compléter l'activation de  votre compte, veuillez vous rendre à cette adresse: {{{activate.url}}}"
+"{{{activate.url}}}"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3349
@@ -2911,7 +2907,7 @@ msgstr "Profil"
 #: bp-xprofile/classes/class-bp-xprofile-component.php:139
 msgctxt "Visibility level setting"
 msgid "Everyone"
-msgstr "Tous"
+msgstr "Public"
 
 #: bp-xprofile/classes/class-bp-xprofile-component.php:143
 msgctxt "Visibility level setting"
@@ -2921,7 +2917,7 @@ msgstr "Seulement moi"
 #: bp-xprofile/classes/class-bp-xprofile-component.php:147
 msgctxt "Visibility level setting"
 msgid "All Members"
-msgstr "Tous les membres"
+msgstr "Membres KinoGeneva"
 
 #: bp-xprofile/classes/class-bp-xprofile-user-admin.php:162
 msgctxt "xprofile user-admin edit screen"
@@ -3450,7 +3446,7 @@ msgstr "Créer le compte"
 #: bp-templates/bp-legacy/buddypress/members/register.php:391
 #: bp-themes/bp-default/registration/register.php:272
 msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
-msgstr "Vous venez de créer votre compte. Vous devez maintenant l'activer en utilisant le lien qui se trouve dans le mail que nous venons de vous envoyer."
+msgstr "Vous venez de créer votre compte. Un e-mail d’activation vous a été envoyé, afin de finaliser votre inscription."
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:294
 #: bp-themes/bp-default/registration/register.php:232
@@ -3574,12 +3570,12 @@ msgstr "Clé d'activation:"
 #: bp-templates/bp-legacy/buddypress/members/activate.php:51
 #: bp-themes/bp-default/registration/activate.php:30
 msgid "Please provide a valid activation key."
-msgstr "Veuillez indiquer une clé d'activation valide"
+msgstr "Si vous avez déjà activé votre compte, vous pouvez à tout moment vous connecter au site <a href=\"http://kinogeneva.ch/wp-login.php\">via la page Login</a> (avec votre identifiant et mot de passe).<br/><br/>Sinon, veuillez entrer une clé d'activation valide ci-dessous:"
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:46
 #: bp-themes/bp-default/registration/activate.php:25
 msgid "Your account was activated successfully! You can now <a href=\"%s\">log in</a> with the username and password you provided when you signed up."
-msgstr "Votre compte est activ&eacute;. Vous pouvez <a href=\"%s\">vous connecter</a> en utilisant les identifiants que vous avez indiqué lors de votre inscription"
+msgstr "Vous devez finaliser votre inscription <a href=\"%s\">en cliquant ce lien pour vous connecter à votre compte</a> (avec votre identifiant et mot de passe)."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:54
 msgid "All of your friends already belong to this group."
@@ -10217,3 +10213,11 @@ msgstr "Activité supprimée avec succès"
 
 msgid "yes"
 msgstr "oui"
+
+# Custom...
+msgid "After successful activation, you can log in using your username (%1$s) along with password you choose during registration process."
+msgstr "Après l’activation, vous pouvez à tout moment vous connecter au site par le lien http://kinogeneva.ch/wp-login.php avec votre nom d'utilisater (%1$s) et le mot de passe que vous avez défini."
+
+# Champ Visibilité :
+msgid "This field can be seen by:"
+msgstr "Ce champ peut être vu par:"

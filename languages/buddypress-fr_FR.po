@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - BuddyPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-04 21:59+0100\n"
+"PO-Revision-Date: 2016-12-09 20:08+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.4\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "POT-Creation-Date: \n"
@@ -77,12 +77,12 @@ msgstr "Navigation principale du membre"
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/groups.php:65
 msgid "Member's groups"
-msgstr "Groupes du membre"
+msgstr "Projets du membre"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/groups/invites.php:20
 msgid "Group invitations"
-msgstr "Invitations de groupe"
+msgstr "Invitations de projet"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/friends.php:58
@@ -122,32 +122,32 @@ msgstr "Formulaire d'adhésion"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/home.php:39
 msgid "Group primary navigation"
-msgstr "Navigation principale de groupe"
+msgstr "Navigation principale de projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/manage-members.php:317
 msgid "No group members were found."
-msgstr "Aucun membre de groupe n'a été trouvé."
+msgstr "Aucun membre de projet n'a été trouvé."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/manage-members.php:206
 msgid "No group moderators were found."
-msgstr "Aucun modérateur de groupe n'a été trouvé"
+msgstr "Aucun modérateur de projet n'a été trouvé"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/manage-members.php:111
 msgid "No group administrators were found."
-msgstr "Aucun administrateur de groupe n'a été trouvé."
+msgstr "Aucun administrateur de projet n'a été trouvé."
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/groups/index.php:115
 msgid "Groups directory"
-msgstr "Annuaire des groupes"
+msgstr "Annuaire des projets"
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:79
 msgid "Groups directory secondary navigation"
-msgstr "Navigation secondaire de l'annuaire des groupes"
+msgstr "Navigation secondaire de l'annuaire des projets"
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:59
 msgid "Groups directory main navigation"
-msgstr "Navigation principale de l'annuaire des groupes"
+msgstr "Navigation principale de l'annuaire des projets"
 
 #. translators: Group type description shown when creating a group.
 #: bp-templates/bp-legacy/buddypress/groups/create.php:162
@@ -158,17 +158,17 @@ msgstr "&ndash; %s"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:154
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:76
 msgid "Select the types this group should be a part of."
-msgstr "Sélectionnez les types dont ce groupe doit faire partie."
+msgstr "Sélectionnez les types dont ce projet doit faire partie."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:152
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:74
 msgid "Group Types"
-msgstr "Types de groupe"
+msgstr "Types de projet"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/groups/create.php:61
 msgid "Group Details"
-msgstr "Informations sur le groupe"
+msgstr "Informations sur le projet"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:80
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/edit.php:20
@@ -225,32 +225,32 @@ msgstr "Changer le type de membre pour&hellip;"
 
 #: bp-groups/classes/class-bp-groups-list-table.php:782
 msgid "No Group Type"
-msgstr "Sans type de groupe"
+msgstr "Sans type de projet"
 
 #: bp-groups/classes/class-bp-groups-list-table.php:772
 #: bp-groups/classes/class-bp-groups-list-table.php:774
 msgid "Change group type to&hellip;"
-msgstr "Changer le type de groupe vers &hellip;"
+msgstr "Changer le type de projet vers &hellip;"
 
 #: bp-groups/classes/class-bp-groups-list-table.php:699
 msgctxt "Label for the WP groups table group type column"
 msgid "Group Type"
-msgstr "Type de groupe"
+msgstr "Type de projet"
 
 #: bp-groups/bp-groups-template.php:5308
 msgid "Viewing groups of the type: %s"
-msgstr "Visualisation des groupes du type&nbsp;:&nbsp;%s"
+msgstr "Visualisation des projets du type&nbsp;:&nbsp;%s"
 
 #: bp-groups/bp-groups-template.php:4478
 #: bp-templates/bp-legacy/buddypress/groups/single/activity.php:10
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:10
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:24
 msgid "Group secondary navigation"
-msgstr "Navigation secondaire de groupe"
+msgstr "Navigation secondaire de projet"
 
 #: bp-groups/bp-groups-template.php:242
 msgid "Group Types:"
-msgstr "Types de groupe:"
+msgstr "Types de projet:"
 
 #: bp-groups/bp-groups-template.php:101
 msgctxt "group type URL base"
@@ -259,11 +259,11 @@ msgstr "type"
 
 #: bp-groups/bp-groups-admin.php:1326
 msgid "Group type was changed successfully."
-msgstr "Le type de groupe a été changé avec succès."
+msgstr "Le type de projet a été changé avec succès."
 
 #: bp-groups/bp-groups-admin.php:1323
 msgid "There was an error while changing group type. Please try again."
-msgstr "Il y a eu une erreur durant le changement de type de groupe. Merci d'essayer à nouveau."
+msgstr "Il y a eu une erreur durant le changement de type de projet. Merci d'essayer à nouveau."
 
 #. Description of the plugin/theme
 msgid "BuddyPress helps site builders and WordPress developers add community features to their websites, with user profile fields, activity streams, messaging, and notifications."
@@ -341,11 +341,11 @@ msgstr "Gérer les demandes d'adhésion"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:11
 msgid "Manage Group Settings"
-msgstr "Gérer les paramètres du groupe"
+msgstr "Gérer les paramètres du projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/edit-details.php:11
 msgid "Manage Group Details"
-msgstr "Gérer les détails du groupe"
+msgstr "Gérer les détails du projet"
 
 #. translators: 1: user profile link, 2: user name, 3: activity permalink, 4:
 #. ISO8601 timestamp, 5: activity relative timestamp
@@ -366,12 +366,12 @@ msgstr "Messages envoy&eacute;s"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:229
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:11
 msgid "Group Avatar"
-msgstr "Avatar du groupe"
+msgstr "Avatar du projet"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/groups.php:60
 msgid "My groups"
-msgstr "Mes groupes"
+msgstr "Mes projets"
 
 #. translators: accessibility text
 #: bp-templates/bp-legacy/buddypress/members/single/friends/requests.php:20
@@ -414,20 +414,20 @@ msgstr "De très nombreuses améliorations de performances"
 
 #: bp-core/classes/class-bp-admin.php:709
 msgid "Query support for hierarchical groups makes it much easier for developers to add custom front-end functionality."
-msgstr "Un meilleur appui pour les requêtes sur les groupes hiérarchiques, pour faciliter la tâche des développeurs souhaitant personnaliser des fonctionnalités en front-end"
+msgstr "Un meilleur appui pour les requêtes sur les projets hiérarchiques, pour faciliter la tâche des développeurs souhaitant personnaliser des fonctionnalités en front-end"
 
 #. translators: %s: parent_id
 #: bp-core/classes/class-bp-admin.php:707
 msgid "Support for Querying for Groups by New Column %s"
-msgstr "Ajout d'une nouvelle colonne %s pour trier les groupes"
+msgstr "Ajout d'une nouvelle colonne %s pour trier les projets"
 
 #: bp-core/classes/class-bp-admin.php:700
 msgid "Improved markup, new modular group management templates, and a new member search form are just some of the enhancements added to the single group admin screens."
-msgstr "Amélioration du balisage, de nouveaux gabarits modulaires de gestion et un nouveau formulaire de recherche de groupe sont quelques-unes des innovations ajoutées à l'écran de gestion du groupe."
+msgstr "Amélioration du balisage, de nouveaux gabarits modulaires de gestion et un nouveau formulaire de recherche de projet sont quelques-unes des innovations ajoutées à l'écran de gestion du projet."
 
 #: bp-core/classes/class-bp-admin.php:699
 msgid "Improvements to a Single Group&#8217;s Management Screens"
-msgstr "Amélioration de l'écran de gestion du groupe"
+msgstr "Amélioration de l'écran de gestion du projet"
 
 #: bp-core/classes/class-bp-admin.php:694
 msgid "Provides developers with improved syntax and more control over the rendering of buttons."
@@ -456,7 +456,7 @@ msgstr "Accessibilité renforcée en front et back-end"
 
 #: bp-core/classes/class-bp-admin.php:679
 msgid "Whatever you choose as the title of your Activity, Sites, Members, or Groups directory pages on the back end, is what you&#8217;ll get as the heading on the front end."
-msgstr "Quelque soit le titre que vous choisirez pour les pages Activités, Sites, Membres ou Groupes en back-end, sera affiché comme en-tête de page on front-end."
+msgstr "Quelque soit le titre que vous choisirez pour les pages Activités, Sites, Membres ou projets en back-end, sera affiché comme en-tête de page on front-end."
 
 #: bp-core/classes/class-bp-admin.php:678
 msgid "Use WP Page Names for Headings of BP Directory Pages"
@@ -480,11 +480,11 @@ msgstr "Horodatage traductible"
 
 #: bp-core/classes/class-bp-admin.php:661
 msgid "Easily filter your members and groups by type and set types in bulk on the users and groups list tables in the dashboard."
-msgstr "Filtrez facilement vos membres et groupes par type avec le traitement par lot disponible sur les listes de membres et groupes du tableau de bord."
+msgstr "Filtrez facilement vos membres et projets par type avec le traitement par lot disponible sur les listes de membres et projets du tableau de bord."
 
 #: bp-core/classes/class-bp-admin.php:660
 msgid "Member Type and Group Type Filters in Users and Groups Admin Screens"
-msgstr "Des filtres par type de membre et type de groupe sur les écrans d'administration des membres et des groupes"
+msgstr "Des filtres par type de membre et type de projet sur les écrans d'administration des membres et des projets"
 
 #. translators: %s: URL to the WordPress Codex article
 #: bp-core/classes/class-bp-admin.php:653
@@ -498,11 +498,11 @@ msgstr "Utilisez l'icone du site comme image de profil de votre site"
 #. translators: %s: URL to the BuddyPress Codex article
 #: bp-core/classes/class-bp-admin.php:643
 msgid "Enable developers to show Group Types on the front end as well as control where the group type information is rendered. <a href=\"%s\">Learn how to implement this feature</a>."
-msgstr "Permet aux développeurs d'afficher les types de groupes en front-end et de contrôler la manière dont l'information de type est affichée. <a href=\"%s\">Apprenez comment implémenter cette fonctionnalité</a>."
+msgstr "Permet aux développeurs d'afficher les types de projets en front-end et de contrôler la manière dont l'information de type est affichée. <a href=\"%s\">Apprenez comment implémenter cette fonctionnalité</a>."
 
 #: bp-core/classes/class-bp-admin.php:640
 msgid "Group Types Integration in Templates"
-msgstr "Intégration des types de groupes dans les gabarits"
+msgstr "Intégration des types de projets dans les gabarits"
 
 #: bp-core/classes/class-bp-admin.php:635
 msgid "New Date Field settings, \"Date format\" and \"Range\", make it easier for site administrators to decide how date-based data will be collected and displayed."
@@ -519,11 +519,11 @@ msgstr "Pour les développeurs et les créateurs de sites"
 #. translators: %s: URL to the development post about this feature
 #: bp-core/classes/class-bp-admin.php:622
 msgid "Huge performance improvements on sites using persistent caching. <a href=\"%s\">Learn more about the Groups Query rewrite</a>."
-msgstr "D'énormes améliorations des performances sur les sites utilisant un cache persistant. <a href=\"%s\">En apprendre plus sur la réécriture de la requête de groupe</a>"
+msgstr "D'énormes améliorations des performances sur les sites utilisant un cache persistant. <a href=\"%s\">En apprendre plus sur la réécriture de la requête de projet</a>"
 
 #: bp-core/classes/class-bp-admin.php:618
 msgid "Groups Query Overhaul"
-msgstr "Révision de la requête de groupe"
+msgstr "Révision de la requête de projet"
 
 #: bp-core/bp-core-functions.php:3673
 msgid "You can change this or any other email notification preferences in your email settings."
@@ -544,7 +544,7 @@ msgstr "Quelque chose s'est mal passé."
 
 #: bp-core/bp-core-functions.php:3580 bp-core/bp-core-functions.php:3588
 msgid "You will no longer receive emails when your request to join a group has been accepted or denied."
-msgstr "Vous ne recevrez plus d'email quand vos demandes d'adhésions à un groupe seront acceptées ou rejetées."
+msgstr "Vous ne recevrez plus d'email quand vos demandes d'adhésions à un projet seront acceptées ou rejetées."
 
 #: bp-core/bp-core-functions.php:3567
 msgid "You will no longer receive emails when someone sends you a message."
@@ -552,19 +552,19 @@ msgstr "Vous ne recevrez plus d'email quand quelqu'un vous aura envoyé un messa
 
 #: bp-core/bp-core-functions.php:3559
 msgid "You will no longer receive emails when someone requests to be a member of your group."
-msgstr "Vous ne recevrez plus d'email quand quelqu'un demandera à adhérer à un de vos groupes."
+msgstr "Vous ne recevrez plus d'email quand quelqu'un demandera à adhérer à un de vos projets."
 
 #: bp-core/bp-core-functions.php:3543 bp-core/bp-core-functions.php:3551
 msgid "You will no longer receive emails when you have been promoted in a group."
-msgstr "Vous ne recevrez plus d'email quand vous serez promu dans un groupe."
+msgstr "Vous ne recevrez plus d'email quand vous serez promu dans un projet."
 
 #: bp-core/bp-core-functions.php:3535
 msgid "You will no longer receive emails when you are invited to join a group."
-msgstr "Vous ne recevrez plus d'email quand vous serez invité à rejoindre un groupe."
+msgstr "Vous ne recevrez plus d'email quand vous serez invité à rejoindre un projet."
 
 #: bp-core/bp-core-functions.php:3519 bp-core/bp-core-functions.php:3527
 msgid "You will no longer receive emails when one of your groups is updated."
-msgstr "Vous ne recevrez plus d'email quand un groupe a été mis à jour."
+msgstr "Vous ne recevrez plus d'email quand un projet a été mis à jour."
 
 #: bp-core/bp-core-functions.php:3511
 msgid "You will no longer receive emails when someone accepts your friendship request."
@@ -622,20 +622,20 @@ msgstr "Vie privée&nbsp;:&nbsp;Je souhaite que mon blog apparaisse dans les mot
 #: bp-groups/bp-groups-admin.php:142
 msgctxt "groups admin edit screen"
 msgid "Group Type"
-msgstr "Type de groupe"
+msgstr "Type de projet"
 
 #. translators: accessibility text
 #: bp-groups/bp-groups-admin.php:1056
 msgid "Select group type"
-msgstr "Sélectionnez un type de groupe"
+msgstr "Sélectionnez un type de projet"
 
 #: bp-groups/bp-groups-functions.php:2151
 msgid "Group type already exists."
-msgstr "Ce type de groupe existe déjà."
+msgstr "Ce type de projet existe déjà."
 
 #: bp-groups/bp-groups-functions.php:2178
 msgid "You may not register a group type with this name."
-msgstr "Vous ne pouvez pas enregistrer un type de groupe avec ce nom."
+msgstr "Vous ne pouvez pas enregistrer un type de projet avec ce nom."
 
 #: bp-members/classes/class-bp-members-component.php:313
 msgctxt "Member Home page"
@@ -645,7 +645,7 @@ msgstr "Accueil"
 #: bp-groups/bp-groups-screens.php:1536
 msgctxt "group settings on notification settings page"
 msgid "Your request to join a group has been approved or denied"
-msgstr "Votre demande pour rejoindre un groupe a été approuvée ou refusée."
+msgstr "Votre demande pour rejoindre un projet a été approuvée ou refusée."
 
 #: bp-settings/bp-settings-template.php:89
 msgid "There is a pending change of your email address to %s."
@@ -675,19 +675,19 @@ msgstr "Demandes en attente %s"
 
 #: bp-groups/bp-groups-admin.php:653
 msgid "No group found with this ID."
-msgstr "Aucun groupe trouvé avec cet ID."
+msgstr "Aucun projet trouvé avec cet ID."
 
 #. translators: %s: Group count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:455
 msgctxt "Group screen nav with counter"
 msgid "Groups %s"
-msgstr "Groupes %s"
+msgstr "projets %s"
 
 #. translators: %s: Group invitation count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:742
 msgctxt "My Account Groups nav"
 msgid "Groups %s"
-msgstr "Groupes %s"
+msgstr "projets %s"
 
 #. translators: %s: Group invitation count for the current user
 #: bp-groups/classes/class-bp-groups-component.php:748
@@ -900,12 +900,12 @@ msgstr "Activ&eacute;"
 #. translators: accessibility text
 #: bp-groups/classes/class-bp-groups-list-table.php:240
 msgid "Groups list"
-msgstr "Liste des groupes"
+msgstr "Liste des projets"
 
 #. translators: accessibility text
 #: bp-groups/classes/class-bp-groups-list-table.php:330
 msgid "Filter groups list"
-msgstr "Filtrer la liste des groupes"
+msgstr "Filtrer la liste des projets"
 
 #. translators: accessibility text
 #: bp-members/classes/class-bp-members-admin.php:1523
@@ -915,7 +915,7 @@ msgstr "Liste des filtres utilisateurs"
 #. translators: accessibility text
 #: bp-groups/bp-groups-admin.php:196
 msgid "Groups list navigation"
-msgstr "Navigation dans la liste de groupes"
+msgstr "Navigation dans la liste de projets"
 
 #: bp-core/classes/class-bp-core-login-widget.php:120
 msgid "Register for a new account"
@@ -1174,7 +1174,7 @@ msgstr "Couleur du background du header"
 
 #: bp-core/admin/bp-core-admin-tools.php:24
 msgid "BuddyPress keeps track of various relationships between members, groups, and activity items. Occasionally these relationships become out of sync, most often after an import, update, or migration."
-msgstr "BuddyPress conserve les traces entre les différentes relations existantes entre membres, groupe et tous les items d'activités. Occasionellement, ces relations peuvent se désynchroniser; le plus souvent après une grosse importation, une mise à jour ou une migration."
+msgstr "BuddyPress conserve les traces entre les différentes relations existantes entre membres, projet et tous les items d'activités. Occasionellement, ces relations peuvent se désynchroniser; le plus souvent après une grosse importation, une mise à jour ou une migration."
 
 #: bp-core/admin/bp-core-admin-tools.php:32
 msgid "Repair tools"
@@ -1190,7 +1190,7 @@ msgstr "Réparer le comptage des amis de chaque membre."
 
 #: bp-core/admin/bp-core-admin-tools.php:127
 msgid "Repair total groups count for each member."
-msgstr "Réparer le comptage des groupes de chaque membre."
+msgstr "Réparer le comptage des projets de chaque membre."
 
 #: bp-core/admin/bp-core-admin-tools.php:137
 msgid "Repopulate site tracking records."
@@ -1229,19 +1229,19 @@ msgstr "Le destinataire a été accepté comme ami par un membre."
 
 #: bp-core/bp-core-functions.php:3516 bp-core/bp-core-functions.php:3524
 msgid "A group's details were updated."
-msgstr "Des informations sur le groupe ont été mises à jour."
+msgstr "Des informations sur le projet ont été mises à jour."
 
 #: bp-core/bp-core-functions.php:3532
 msgid "A member has sent a group invitation to the recipient."
-msgstr "Un membre envoye une invitation à rejoindre un groupe au destinatiare"
+msgstr "Un membre envoye une invitation à rejoindre un projet au destinatiare"
 
 #: bp-core/bp-core-functions.php:3540 bp-core/bp-core-functions.php:3548
 msgid "Recipient's status within a group has changed."
-msgstr "Le statut du destinataire dans un groupe a été modifié."
+msgstr "Le statut du destinataire dans un projet a été modifié."
 
 #: bp-core/bp-core-functions.php:3556
 msgid "A member has requested permission to join a group."
-msgstr "Un membre demande à rejoindre un groupe."
+msgstr "Un membre demande à rejoindre un projet."
 
 #: bp-core/bp-core-functions.php:3564
 msgid "Recipient has received a private message."
@@ -1253,31 +1253,31 @@ msgstr "Le destinataire a modifié son adresse mail."
 
 #: bp-core/bp-core-functions.php:3577
 msgid "Recipient had requested to join a group, which was accepted."
-msgstr "Le destinataire est autorisé à rejoindre un groupe."
+msgstr "Le destinataire est autorisé à rejoindre un projet."
 
 #: bp-core/bp-core-functions.php:3585
 msgid "Recipient had requested to join a group, which was rejected."
-msgstr "Le destinataire n'est pas autorisé à rejoindre un groupe."
+msgstr "Le destinataire n'est pas autorisé à rejoindre un projet."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3421
 msgid "[{{{site.name}}}] Membership request for group \"{{group.name}}\" accepted"
-msgstr "[{{{site.name}}}] votre demande d'adhésion au groupe \"{{group.name}}\" a été acceptée"
+msgstr "[{{{site.name}}}] votre demande d'adhésion au projet \"{{group.name}}\" a été acceptée"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3423
 msgid "Your membership request for the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; has been accepted."
-msgstr "Votre demande d'adhésion au groupe &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; a été acceptée."
+msgstr "Votre demande d'adhésion au projet &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; a été acceptée."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3429
 msgid "[{{{site.name}}}] Membership request for group \"{{group.name}}\" rejected"
-msgstr "[{{{site.name}}}] votre demande d'adhésion au groupe \"{{group.name}}\" a été rejetée"
+msgstr "[{{{site.name}}}] votre demande d'adhésion au projet \"{{group.name}}\" a été rejetée"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3431
 msgid "Your membership request for the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; has been rejected."
-msgstr "Votre demande d'adhésion au groupe &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; a été rejetée."
+msgstr "Votre demande d'adhésion au projet &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; a été rejetée."
 
 #: bp-core/bp-core-functions.php:3458
 msgid "A member has replied to an activity update that the recipient posted."
@@ -1293,7 +1293,7 @@ msgstr "Le destinataire a été mentionné dans une mise à jour d'activité."
 
 #: bp-core/bp-core-functions.php:3482
 msgid "Recipient was mentioned in a group activity update."
-msgstr "Le destinataire a été mentionné dans une mise à jour d'activité d'un groupe."
+msgstr "Le destinataire a été mentionné dans une mise à jour d'activité d'un projet."
 
 #: bp-core/bp-core-functions.php:3490
 msgid "Recipient has registered for an account."
@@ -1325,7 +1325,7 @@ msgid ""
 "\n"
 "To request membership again, visit: {{{group.url}}}"
 msgstr ""
-"Votre demande d'adhésion au groupe \"{{group.name}}\" a été rejetée.\n"
+"Votre demande d'adhésion au projet \"{{group.name}}\" a été rejetée.\n"
 "\n"
 "Pour solliciter une nouvelle demande, cliquez ici: {{{group.url}}}"
 
@@ -1336,9 +1336,9 @@ msgid ""
 "\n"
 "To view the group, visit: {{{group.url}}}"
 msgstr ""
-"Votre demande d'adhésion au groupe \"{{group.name}}\" a été acceptée.\n"
+"Votre demande d'adhésion au projet \"{{group.name}}\" a été acceptée.\n"
 "\n"
-"Pour voir le groupe, cliquez ici: {{{group.url}}}"
+"Pour voir le projet, cliquez ici: {{{group.url}}}"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3415
@@ -1400,7 +1400,7 @@ msgid ""
 "\n"
 "To view {{requesting-user.name}}'s profile, visit: {{{profile.url}}}"
 msgstr ""
-"{{requesting-user.name}} demande à rejoindre le groupe \"{{group.name}}\". En tant qu'administrateur de ce groupe, vous avez la possibilité d'accepter ou de rejeter cette demande.\n"
+"{{requesting-user.name}} demande à rejoindre le projet \"{{group.name}}\". En tant qu'administrateur de ce projet, vous avez la possibilité d'accepter ou de rejeter cette demande.\n"
 "\n"
 "Pour traiter cette demande et celles qui sont en attente, cliquez ici: {{{group-requests.url}}}\n"
 "\n"
@@ -1413,24 +1413,24 @@ msgid ""
 "\n"
 "<a href=\"{{{group-requests.url}}}\">Go here to manage this</a> and all other pending requests."
 msgstr ""
-"<a href=\"{{{profile.url}}}\">{{requesting-user.name}}</a> souhaite rejoindre le groupe &quot;{{group.name}}&quot;. En tant qu'administrateur de ce groupe, vous pouvez accepter ou rejeter cette demande\n"
+"<a href=\"{{{profile.url}}}\">{{requesting-user.name}}</a> souhaite rejoindre le projet &quot;{{group.name}}&quot;. En tant qu'administrateur de ce projet, vous pouvez accepter ou rejeter cette demande\n"
 "\n"
 "<a href=\"{{{group-requests.url}}}\">Gérer la demande</a> ainsi que d'autres demandes en attente."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3389
 msgid "[{{{site.name}}}] You have been promoted in the group: \"{{group.name}}\""
-msgstr "[{{{site.name}}}] Vous êtes promu dans le groupe: \"{{group.name}}\""
+msgstr "[{{{site.name}}}] Vous êtes promu dans le projet: \"{{group.name}}\""
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3391
 msgid "You have been promoted to <b>{{promoted_to}}</b> in the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot;."
-msgstr "Vous avez été promu comme <b>{{promoted_to}}</b> du groupe &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot;."
+msgstr "Vous avez été promu comme <b>{{promoted_to}}</b> du projet &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot;."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3397
 msgid "[{{{site.name}}}] Membership request for group: {{group.name}}"
-msgstr "[{{{site.name}}}] Demande d'adhésion au groupe: {{group.name}}"
+msgstr "[{{{site.name}}}] Demande d'adhésion au projet: {{group.name}}"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3393
@@ -1439,9 +1439,9 @@ msgid ""
 "\n"
 "To visit the group, go to: {{{group.url}}}"
 msgstr ""
-"Vous avez été promu comme {{promoted_to}} du groupe: \"{{group.name}}\".\n"
+"Vous avez été promu comme {{promoted_to}} du projet: \"{{group.name}}\".\n"
 "\n"
-"Pour visiter le groupe, cliquez ici: {{{group.url}}}"
+"Pour visiter le projet, cliquez ici: {{{group.url}}}"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3385
@@ -1453,11 +1453,11 @@ msgid ""
 "To learn more about the group, visit {{{group.url}}}.\n"
 "To view {{inviter.name}}'s profile, visit: {{{inviter.url}}}"
 msgstr ""
-"{{inviter.name}} vous invite à rejoindre le groupe: \"{{group.name}}\".\n"
+"{{inviter.name}} vous invite à rejoindre le projet: \"{{group.name}}\".\n"
 "\n"
 "Pour accepter cette invitation, cliquez sur ce lien: {{{invites.url}}}\n"
 "\n"
-"Pour en savoir plus sur le groupe, cliquez ici {{{group.url}}}.\n"
+"Pour en savoir plus sur le projet, cliquez ici {{{group.url}}}.\n"
 "Pour en savoir plus sur {{inviter.name}}, visitez son profil: {{{inviter.url}}}"
 
 #. translators: do not remove {} brackets or translate its contents.
@@ -1466,13 +1466,13 @@ msgid ""
 "<a href=\"{{{inviter.url}}}\">{{inviter.name}}</a> has invited you to join the group: &quot;{{group.name}}&quot;.\n"
 "<a href=\"{{{invites.url}}}\">Go here to accept your invitation</a> or <a href=\"{{{group.url}}}\">visit the group</a> to learn more."
 msgstr ""
-"<a href=\"{{{inviter.url}}}\">{{inviter.name}}</a> vous invite à rejoindre le groupe: &quot;{{group.name}}&quot;.\n"
-"<a href=\"{{{invites.url}}}\">Accepter l'invitation</a> ou  <a href=\"{{{group.url}}}\">visiter le groupe</a>pour en savoir plus."
+"<a href=\"{{{inviter.url}}}\">{{inviter.name}}</a> vous invite à rejoindre le projet: &quot;{{group.name}}&quot;.\n"
+"<a href=\"{{{invites.url}}}\">Accepter l'invitation</a> ou  <a href=\"{{{group.url}}}\">visiter le projet</a>pour en savoir plus."
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3373
 msgid "[{{{site.name}}}] Group details updated"
-msgstr "[{{{site.name}}}] Mise à jour des informations du groupe"
+msgstr "[{{{site.name}}}] Mise à jour des informations du projet"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3375
@@ -1480,13 +1480,13 @@ msgid ""
 "Group details for the group &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; were updated:\n"
 "<blockquote>{{changed_text}}</blockquote>"
 msgstr ""
-"Les informations sur le groupe &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; ont été mises à jour:\n"
+"Les informations sur le projet &quot;<a href=\"{{{group.url}}}\">{{group.name}}</a>&quot; ont été mises à jour:\n"
 "<blockquote>{{changed_text}}</blockquote>"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3381
 msgid "[{{{site.name}}}] You have an invitation to the group: \"{{group.name}}\""
-msgstr "[{{{site.name}}}] Vous êtes invité par le groupe: \"{{group.name}}\""
+msgstr "[{{{site.name}}}] Vous êtes invité par le projet: \"{{group.name}}\""
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3377
@@ -1497,11 +1497,11 @@ msgid ""
 "\n"
 "To view the group, visit: {{{group.url}}}"
 msgstr ""
-"Les détails sur le groupe \"{{group.name}}\" ont été mis à jour:\n"
+"Les détails sur le projet \"{{group.name}}\" ont été mis à jour:\n"
 "\n"
 "{{changed_text}}\n"
 "\n"
-"Pour voir le groupe, cliquez ici: {{{group.url}}}"
+"Pour voir le projet, cliquez ici: {{{group.url}}}"
 
 #. translators: do not remove {} brackets or translate its contents.
 #: bp-core/bp-core-functions.php:3361
@@ -1594,7 +1594,7 @@ msgid ""
 "\n"
 "<a href=\"{{{mentioned.url}}}\">Go to the discussion</a> to reply or catch up on the conversation."
 msgstr ""
-"{{poster.name}} vous a cité dans le groupe \"{{group.name}}\":\n"
+"{{poster.name}} vous a cité dans le projet \"{{group.name}}\":\n"
 "\n"
 "<blockquote>&quot;{{usermessage}}&quot;</blockquote>\n"
 "\n"
@@ -1609,7 +1609,7 @@ msgid ""
 "\n"
 "Go to the discussion to reply or catch up on the conversation: {{{mentioned.url}}}"
 msgstr ""
-"{{poster.name}} vous a cité dans le groupe \"{{group.name}}\":\n"
+"{{poster.name}} vous a cité dans le projet \"{{group.name}}\":\n"
 "\n"
 "\"{{usermessage}}\"\n"
 "\n"
@@ -1943,11 +1943,11 @@ msgstr "Supprimer mon image d'en-tête"
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/cover-images/index.php:29
 msgid "If you'd like to remove the existing group cover image but not upload a new one, please use the delete group cover image button."
-msgstr "Cliquez sur Supprimer l'en-tête du groupe si vous voulez juste la supprimer sans en télécharger une nouvelle."
+msgstr "Cliquez sur Supprimer l'en-tête du projet si vous voulez juste la supprimer sans en télécharger une nouvelle."
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/cover-images/index.php:30
 msgid "Delete Group Cover Image"
-msgstr "Supprimer l'en-tête du groupe"
+msgstr "Supprimer l'en-tête du projet"
 
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:62
 msgid "All Sites %s"
@@ -1975,11 +1975,11 @@ msgstr "Sélectionner une image"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:328
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-cover-image.php:22
 msgid "The Cover Image will be used to customize the header of your group."
-msgstr "L'image personnalisera l'en-tête de votre groupe."
+msgstr "L'image personnalisera l'en-tête de votre projet."
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:61
 msgid "All Groups %s"
-msgstr "Tous les groupes %s"
+msgstr "Tous les projets %s"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-cover-image.php:11
 msgid "Change Cover Image"
@@ -2021,7 +2021,7 @@ msgstr "Mes amis %s"
 #: bp-templates/bp-legacy/buddypress/activity/index.php:94
 #: bp-templates/bp-legacy/buddypress/groups/index.php:64
 msgid "My Groups %s"
-msgstr "Mes groupes %s"
+msgstr "Mes projets %s"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:111
 msgid "My Favorites %s"
@@ -2106,7 +2106,7 @@ msgstr "Le message n'a pas été envoyé car vous avez saisi un nom d'utilisateu
 #. translators: accessibility text
 #: bp-groups/bp-groups-admin.php:624
 msgid "Group Description"
-msgstr "Description du groupe de champs"
+msgstr "Description du projet de champs"
 
 #. translators: accessibility text
 #: bp-groups/bp-groups-admin.php:840
@@ -2116,7 +2116,7 @@ msgstr "Ajouter de nouveaux membres"
 #. translators: accessibility text
 #: bp-groups/bp-groups-admin.php:937
 msgid "Select group role for member"
-msgstr "Choix du rôle du membre dans le groupe"
+msgstr "Choix du rôle du membre dans le projet"
 
 #: bp-groups/classes/class-bp-groups-component.php:333
 msgctxt "Group screen nav"
@@ -2142,7 +2142,7 @@ msgstr "Image d'en-tête"
 
 #: bp-groups/bp-groups-template.php:4951
 msgid "Group photo"
-msgstr "Vignette du groupe"
+msgstr "Vignette du projet"
 
 #: bp-members/classes/class-bp-members-admin.php:1064
 msgid "Registered on: %s"
@@ -2151,7 +2151,7 @@ msgstr "Enregistré sur: %s"
 #. translators: accessibility text
 #: bp-groups/bp-groups-admin.php:615
 msgid "Group Name"
-msgstr "Nom du groupe"
+msgstr "Nom du projet"
 
 #: bp-core/bp-core-attachments.php:1301
 msgid "There was a problem uploading the cover image."
@@ -2180,15 +2180,15 @@ msgstr "L'image d'en-tête a bien été supprimée !"
 
 #: bp-core/classes/class-bp-attachment-cover-image.php:261
 msgid "The group cover image was uploaded successfully."
-msgstr "L'image d'en-tête de groupe a bien été téléchargée."
+msgstr "L'image d'en-tête de projet a bien été téléchargée."
 
 #: bp-core/classes/class-bp-attachment-cover-image.php:262
 msgid "There was a problem deleting the group cover image. Please try again."
-msgstr "Un problème est survenu pendant la suppression de l'image d'en-tête de groupe."
+msgstr "Un problème est survenu pendant la suppression de l'image d'en-tête de projet."
 
 #: bp-core/classes/class-bp-attachment-cover-image.php:263
 msgid "The group cover image was deleted successfully!"
-msgstr "L'image d'en-tête de groupe a bien été supprimée."
+msgstr "L'image d'en-tête de projet a bien été supprimée."
 
 #: bp-core/bp-core-attachments.php:787
 msgid "For better results, make sure to upload an image that is larger than %1$spx wide, and %2$spx tall."
@@ -2196,7 +2196,7 @@ msgstr "Pour de meilleurs résultats, assurez-vous de télécharger une image qu
 
 #: bp-core/admin/bp-core-admin-settings.php:214
 msgid "Allow customizable cover images for groups"
-msgstr "Autoriser le téléchargement d'images d'en-tête de groupes"
+msgstr "Autoriser le téléchargement d'images d'en-tête de projets"
 
 #: bp-core/classes/class-bp-admin.php:410
 msgid "Cover Image Uploads"
@@ -2204,7 +2204,7 @@ msgstr "En-tête de profil"
 
 #: bp-core/classes/class-bp-admin.php:436
 msgid "Group Cover Image Uploads"
-msgstr "En-tête de groupe"
+msgstr "En-tête de projet"
 
 #: bp-activity/bp-activity-admin.php:722
 msgid "No activity found with this ID."
@@ -2256,7 +2256,7 @@ msgstr "Vos utilisateurs se présentent sur leur page de profil. Créez des cham
 
 #: bp-core/admin/bp-core-admin-functions.php:587
 msgid "Note: Any fields in the first group will appear on the signup page."
-msgstr "Veuillez noter: chaque champ ajouté au premier groupe apparaîtra sur la page d'enregistrement."
+msgstr "Veuillez noter: chaque champ ajouté au premier projet apparaîtra sur la page d'enregistrement."
 
 #: bp-core/admin/bp-core-admin-settings.php:165
 msgid "Allow registered members to upload cover images"
@@ -2390,7 +2390,7 @@ msgstr "&larr; Précédent"
 #: bp-themes/bp-default/groups/create.php:149
 #: bp-themes/bp-default/groups/single/admin.php:127
 msgid "Upload an image to use as an avatar for this group. The image will be shown on the main group page, and in search results."
-msgstr "Téléchargez une image représentant l'avatar du groupe. L'image apparaîtra sur la page principale du groupe et dans les résultats de recherche."
+msgstr "Téléchargez une image représentant l'avatar du projet. L'image apparaîtra sur la page principale du projet et dans les résultats de recherche."
 
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:1
 msgid "Change Avatar"
@@ -2416,7 +2416,7 @@ msgstr "Redimensionner l'avatar"
 #: bp-themes/bp-default/groups/create.php:18
 #: bp-themes/bp-default/groups/index.php:21
 msgid "Groups Directory"
-msgstr "Annuaire des groupes"
+msgstr "Annuaire des projets"
 
 #: bp-themes/bp-default/functions.php:759
 msgid "Next Entries &rarr;"
@@ -2651,7 +2651,7 @@ msgstr "https://buddypress.org/"
 
 #: bp-xprofile/classes/class-bp-xprofile-group.php:755
 msgid "Field Group Description"
-msgstr "Description du groupe de champs"
+msgstr "Description du projet de champs"
 
 #: bp-xprofile/classes/class-bp-xprofile-group.php:589
 msgid "Please make sure you give the group a name."
@@ -2985,15 +2985,15 @@ msgstr "Ajouter une nouvelle section"
 
 #: bp-xprofile/bp-xprofile-admin.php:275
 msgid "There was an error saving the group. Please try again."
-msgstr "Une erreur est survenue pendant l'enregistrement du groupe. Veuillez recommencer."
+msgstr "Une erreur est survenue pendant l'enregistrement du projet. Veuillez recommencer."
 
 #: bp-xprofile/bp-xprofile-admin.php:224
 msgid "* Fields in this group appear on the signup page."
-msgstr "*les champs placés dans ce groupe apparaîtront sur la page d'enregistrement"
+msgstr "*les champs placés dans ce projet apparaîtront sur la page d'enregistrement"
 
 #: bp-xprofile/bp-xprofile-admin.php:232
 msgid "You have no groups."
-msgstr "Vous n'avez pas de groupe"
+msgstr "Vous n'avez pas de projet"
 
 #: bp-xprofile/bp-xprofile-admin.php:216
 msgid "There are no fields in this group."
@@ -3007,7 +3007,7 @@ msgstr "Ajouter un nouveau champ"
 #. translators: accessibility text
 #: bp-xprofile/bp-xprofile-admin.php:190
 msgid "Fields for \"%s\" Group"
-msgstr "Champs du groupe  \"%s\" "
+msgstr "Champs du projet  \"%s\" "
 
 #: bp-xprofile/bp-xprofile-admin.php:129 bp-xprofile/bp-xprofile-admin.php:570
 msgid "(Primary)"
@@ -3082,7 +3082,7 @@ msgstr "Un problème est survenu à la fermeture de l'alerte."
 #: bp-templates/bp-legacy/buddypress-functions.php:1493
 #: bp-themes/bp-default/_inc/ajax.php:783
 msgid "Error leaving group"
-msgstr "Une erreur s'est produite pendant que vous quittiez le groupe"
+msgstr "Une erreur s'est produite pendant que vous quittiez le projet"
 
 #: bp-themes/bp-default/_inc/ajax.php:774
 msgid "Membership Requested"
@@ -3098,7 +3098,7 @@ msgstr "Une erreur s'est produite pendant l'envoi de la requête."
 #: bp-templates/bp-legacy/buddypress-functions.php:1459
 #: bp-themes/bp-default/_inc/ajax.php:749
 msgid "Error joining group"
-msgstr "Une erreur s'est produite pendant l'adhésion au groupe."
+msgstr "Une erreur s'est produite pendant l'adhésion au projet."
 
 #: bp-templates/bp-legacy/buddypress-functions.php:1428
 #: bp-themes/bp-default/_inc/ajax.php:719
@@ -3135,7 +3135,7 @@ msgstr "Une erreur s'est produite pendant la suppression. Veuillez recommencer."
 #: bp-templates/bp-legacy/buddypress-functions.php:1314
 #: bp-themes/bp-default/_inc/ajax.php:609
 msgid "%s has previously requested to join this group. Sending an invitation will automatically add the member to the group."
-msgstr "%s a préalablement demandé à rejoindre ce groupe. Lui retourner une invitation l'ajoutera automatiquement au groupe"
+msgstr "%s a préalablement demandé à rejoindre ce projet. Lui retourner une invitation l'ajoutera automatiquement au projet"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:304
 #: bp-themes/bp-default/functions.php:184
@@ -3173,7 +3173,7 @@ msgstr "Mes Favoris"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:296
 msgid "Are you sure you want to leave this group?"
-msgstr "Voulez-vous vraiment quitter ce groupe ?"
+msgstr "Voulez-vous vraiment quitter ce projet ?"
 
 #: bp-templates/bp-legacy/buddypress-functions.php:295
 #: bp-themes/bp-default/functions.php:179
@@ -3261,7 +3261,7 @@ msgstr "Modifier"
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:26
 #: bp-themes/bp-default/members/single/profile/edit.php:10
 msgid "Editing '%s' Profile Group"
-msgstr "Modification des champs du groupe : %s"
+msgstr "Modification des champs du projet : %s"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:84
 msgid "Your profile photo will be used on your profile and throughout the site. To change your profile photo, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
@@ -3583,7 +3583,7 @@ msgstr "Votre compte est activ&eacute;. Vous pouvez <a href=\"%s\">vous connecte
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:54
 msgid "All of your friends already belong to this group."
-msgstr "Tous vos amis font déjà partie de ce groupe."
+msgstr "Tous vos amis font déjà partie de ce projet."
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:44
 #: bp-themes/bp-default/registration/activate.php:23
@@ -3592,11 +3592,11 @@ msgstr "Votre compte est activ&eacute;. Un mail contenant les détails de votre 
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:45
 msgid "Group invitations can only be extended to friends."
-msgstr "Les invitations à rejoindre le groupe sont réservées aux amis"
+msgstr "Les invitations à rejoindre le projet sont réservées aux amis"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:46
 msgid "Once you've made some friendships, you'll be able to invite those members to this group."
-msgstr "Une fois que vous aurez des amis, vous pourrez inviter ces membres à rejoindre ce groupe"
+msgstr "Une fois que vous aurez des amis, vous pourrez inviter ces membres à rejoindre ce projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/send-invites.php:30
 #: bp-themes/bp-default/groups/single/send-invites.php:60
@@ -3647,7 +3647,7 @@ msgstr "Aucun membre n'a été trouvé."
 #: bp-templates/bp-legacy/buddypress/groups/single/request-membership.php:22
 #: bp-themes/bp-default/groups/single/request-membership.php:4
 msgid "You are requesting to become a member of the group '%s'."
-msgstr "Vous demandez à devenir membre du groupe '%s'"
+msgstr "Vous demandez à devenir membre du projet '%s'"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/cover-image-header.php:94
 #: bp-templates/bp-legacy/buddypress/groups/single/group-header.php:42
@@ -3664,7 +3664,7 @@ msgstr "Administrateur"
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:100
 #: bp-themes/bp-default/groups/single/forum.php:69
 msgid "You will auto join this group when you start a new topic."
-msgstr "Vous ferez automatiquement partie du groupe en publiant un nouveau sujet"
+msgstr "Vous ferez automatiquement partie du projet en publiant un nouveau sujet"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:104
 #: bp-themes/bp-default/groups/single/forum.php:73
@@ -3689,7 +3689,7 @@ msgstr "Répondre..."
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:175
 #: bp-themes/bp-default/groups/single/forum/topic.php:134
 msgid "You will auto join this group when you reply to this topic."
-msgstr "Vous ferez automatiquement partie du groupe en répondant à ce sujet"
+msgstr "Vous ferez automatiquement partie du projet en répondant à ce sujet"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:160
 #: bp-themes/bp-default/groups/single/forum/topic.php:119
@@ -3733,22 +3733,22 @@ msgstr "Liste des forums"
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/delete-group.php:26
 #: bp-themes/bp-default/groups/single/admin.php:355
 msgid "I understand the consequences of deleting this group."
-msgstr "Je confirme la suppression de ce groupe."
+msgstr "Je confirme la suppression de ce projet."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/delete-group.php:23
 #: bp-themes/bp-default/groups/single/admin.php:352
 msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
-msgstr "La suppression de ce groupe entrainera la suppression définitive de tous les contenus associés. Soyez prudent car ce choix est irréversible."
+msgstr "La suppression de ce projet entrainera la suppression définitive de tous les contenus associés. Soyez prudent car ce choix est irréversible."
 
 #: bp-themes/bp-default/groups/single/admin.php:290
 #: bp-themes/bp-default/groups/single/members.php:87
 msgid "This group has no members."
-msgstr "Ce groupe n'a aucun adhérent"
+msgstr "Ce projet n'a aucun adhérent"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/manage-members.php:280
 #: bp-themes/bp-default/groups/single/admin.php:276
 msgid "Remove from group"
-msgstr "Retirer du groupe"
+msgstr "Retirer du projet"
 
 #: bp-themes/bp-default/groups/single/admin.php:276
 msgid "Remove this member"
@@ -3790,7 +3790,7 @@ msgstr "Retailler le logo"
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/edit-details.php:39
 #: bp-themes/bp-default/groups/single/admin.php:26
 msgid "Notify group members of these changes via email"
-msgstr "Signaler par mail les changements aux membres du groupe"
+msgstr "Signaler par mail les changements aux membres du projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/index.php:97
 #: bp-templates/bp-legacy/buddypress/members/single/groups.php:23
@@ -3808,12 +3808,12 @@ msgstr "Le plus de membres"
 
 #: bp-themes/bp-default/groups/index.php:35
 msgid "All Groups <span>%s</span>"
-msgstr "Tous les Groupes <span>%s</span>"
+msgstr "Tous les projets <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/groups/groups-loop.php:135
 #: bp-themes/bp-default/groups/groups-loop.php:95
 msgid "There were no groups found."
-msgstr "Aucun groupe trouvé"
+msgstr "Aucun projet trouvé"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:480
 #: bp-themes/bp-default/groups/create.php:289
@@ -3828,7 +3828,7 @@ msgstr "&Eacute;tape suivante"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:473
 #: bp-themes/bp-default/groups/create.php:282
 msgid "Create Group and Continue"
-msgstr "Créer le groupe et poursuivre"
+msgstr "Créer le projet et poursuivre"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:459
 #: bp-themes/bp-default/groups/create.php:268
@@ -3839,7 +3839,7 @@ msgstr "Revenir à l'étape précédente"
 #: bp-themes/bp-default/groups/create.php:246
 #: bp-themes/bp-default/groups/single/send-invites.php:73
 msgid "Once you have built up friend connections you will be able to invite others to your group."
-msgstr "Une fois que vous aurez noué des contacts avec d'autres membres du site, vous pourrez les inviter à rejoindre votre groupe. "
+msgstr "Une fois que vous aurez noué des contacts avec d'autres membres du site, vous pourrez les inviter à rejoindre votre projet. "
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:397
 #: bp-templates/bp-legacy/buddypress/groups/single/invites-loop.php:74
@@ -3860,7 +3860,7 @@ msgstr "Cochez les noms des amis que vous voulez inviter"
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:54
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:57
 msgid "Profile photo preview"
-msgstr "Prévisualisation du logo du groupe"
+msgstr "Prévisualisation du logo du projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:262
 msgid "To skip the group profile photo upload process, hit the \"Next Step\" button."
@@ -3868,7 +3868,7 @@ msgstr "Pour passer l'étape de téléchargement du logo, cliquez simplement sur
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:277
 msgid "Crop Group Profile Photo"
-msgstr "Retailler le logo du groupe"
+msgstr "Retailler le logo du projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:279
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:51
@@ -3888,52 +3888,52 @@ msgstr "Télécharger l'image"
 #: bp-templates/bp-legacy/buddypress/groups/create.php:250
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:15
 msgid "Upload an image to use as a profile photo for this group. The image will be shown on the main group page, and in search results."
-msgstr "Téléchargez une image qui représentera le logo du groupe. L'image apparaîtra sur la page principale du groupe et dans les résultats de recherche."
+msgstr "Téléchargez une image qui représentera le logo du projet. L'image apparaîtra sur la page principale du projet et dans les résultats de recherche."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:205
 #: bp-themes/bp-default/groups/create.php:123
 msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
-msgstr "<strong>Administrateur, attention: </strong>Les forums de groupes requièrent  <a href=\"%s\">une installation correctement configurée</a> de bbPress."
+msgstr "<strong>Administrateur, attention: </strong>Les forums de projets requièrent  <a href=\"%s\">une installation correctement configurée</a> de bbPress."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:198
 #: bp-themes/bp-default/groups/create.php:116
 msgid "Should this group have a forum?"
-msgstr "Faut-il installer un forum pour ce groupe ?"
+msgstr "Faut-il installer un forum pour ce projet ?"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:178
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:100
 #: bp-themes/bp-default/groups/create.php:91
 #: bp-themes/bp-default/groups/single/admin.php:94
 msgid "Which members of this group are allowed to invite others?"
-msgstr "Quels membres de ce groupe sont autorisés à inviter d'autres membres à les rejoindre ?"
+msgstr "Quels membres de ce projet sont autorisés à inviter d'autres membres à les rejoindre ?"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:176
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:98
 #: bp-themes/bp-default/groups/create.php:89
 #: bp-themes/bp-default/groups/single/admin.php:92
 msgid "Group Invitations"
-msgstr "Invitations à rejoindre le groupe"
+msgstr "Invitations à rejoindre le projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:140
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:62
 #: bp-themes/bp-default/groups/create.php:83
 #: bp-themes/bp-default/groups/single/admin.php:84
 msgid "This group will not be listed in the groups directory or search results."
-msgstr "Le groupe n'apparaîtra pas dans l'annuaire des groupes, ni dans les résultats de recherche"
+msgstr "Le projet n'apparaîtra pas dans l'annuaire des projets, ni dans les résultats de recherche"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:139
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:61
 #: bp-themes/bp-default/groups/create.php:82
 #: bp-themes/bp-default/groups/single/admin.php:83
 msgid "Only users who are invited can join the group."
-msgstr "Seuls des utilisateurs invités peuvent adhérer au groupe"
+msgstr "Seuls des utilisateurs invités peuvent adhérer au projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:136
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:58
 #: bp-themes/bp-default/groups/create.php:80
 #: bp-themes/bp-default/groups/single/admin.php:81
 msgid "This is a hidden group"
-msgstr "Ce groupe est masqué."
+msgstr "Ce projet est masqué."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:133
 #: bp-templates/bp-legacy/buddypress/groups/create.php:141
@@ -3944,28 +3944,28 @@ msgstr "Ce groupe est masqué."
 #: bp-themes/bp-default/groups/single/admin.php:75
 #: bp-themes/bp-default/groups/single/admin.php:85
 msgid "Group content and activity will only be visible to members of the group."
-msgstr "Le contenu et les activités du groupe seront uniquement visibles par les membres du groupe"
+msgstr "Le contenu et les activités du projet seront uniquement visibles par les membres du projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:131
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:53
 #: bp-themes/bp-default/groups/create.php:73
 #: bp-themes/bp-default/groups/single/admin.php:73
 msgid "Only users who request membership and are accepted can join the group."
-msgstr "Seuls les membres ayant obtenu l'autorisation de joindre le groupe pourront y adhérer"
+msgstr "Seuls les membres ayant obtenu l'autorisation de joindre le projet pourront y adhérer"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:128
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:50
 #: bp-themes/bp-default/groups/create.php:71
 #: bp-themes/bp-default/groups/single/admin.php:71
 msgid "This is a private group"
-msgstr "Ce groupe est privé."
+msgstr "Ce projet est privé."
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:125
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:47
 #: bp-themes/bp-default/groups/create.php:66
 #: bp-themes/bp-default/groups/single/admin.php:65
 msgid "Group content and activity will be visible to any site member."
-msgstr "Le contenu et les activités du groupe seront visibles de tous les membres du site"
+msgstr "Le contenu et les activités du projet seront visibles de tous les membres du site"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:124
 #: bp-templates/bp-legacy/buddypress/groups/create.php:132
@@ -3976,21 +3976,21 @@ msgstr "Le contenu et les activités du groupe seront visibles de tous les membr
 #: bp-themes/bp-default/groups/single/admin.php:64
 #: bp-themes/bp-default/groups/single/admin.php:74
 msgid "This group will be listed in the groups directory and in search results."
-msgstr "Le groupe apparaîtra dans l'annuaire des groupes et dans les résultats de recherche"
+msgstr "Le projet apparaîtra dans l'annuaire des projets et dans les résultats de recherche"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:123
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:45
 #: bp-themes/bp-default/groups/create.php:64
 #: bp-themes/bp-default/groups/single/admin.php:63
 msgid "Any site member can join this group."
-msgstr "Tous les membres du site peuvent adhérer à ce groupe"
+msgstr "Tous les membres du site peuvent adhérer à ce projet"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:120
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:42
 #: bp-themes/bp-default/groups/create.php:62
 #: bp-themes/bp-default/groups/single/admin.php:61
 msgid "This is a public group"
-msgstr "Ce groupe est public"
+msgstr "Ce projet est public"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:116
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-settings.php:38
@@ -4004,19 +4004,19 @@ msgstr "Options de confidentialit&eacute;"
 #: bp-themes/bp-default/groups/create.php:42
 #: bp-themes/bp-default/groups/single/admin.php:19
 msgid "Group Description (required)"
-msgstr "Description du groupe (obligatoire)"
+msgstr "Description du projet (obligatoire)"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:74
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/edit-details.php:22
 #: bp-themes/bp-default/groups/create.php:39
 #: bp-themes/bp-default/groups/single/admin.php:16
 msgid "Group Name (required)"
-msgstr "Nom du Groupe (obligatoire)"
+msgstr "Nom du projet (obligatoire)"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:227
 #: bp-themes/bp-default/forums/index.php:145
 msgid "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum."
-msgstr "Vous n&#39;&ecirc;tes membre d&#39;aucun groupe et vous n&#39;avez donc aucun forum o&ugrave; poster. Pour pouvoir le faire, choisissez d&#39;abord un groupe auquel vous affilier. Si ce groupe n&#39;existe pas vous pouvez le <a href='%s'>créer</a>. Une fois que vous ferez partie d&#39;un groupe, vous pourrez poster sur le forum de ce groupe."
+msgstr "Vous n&#39;&ecirc;tes membre d&#39;aucun projet et vous n&#39;avez donc aucun forum o&ugrave; poster. Pour pouvoir le faire, choisissez d&#39;abord un projet auquel vous affilier. Si ce projet n&#39;existe pas vous pouvez le <a href='%s'>créer</a>. Une fois que vous ferez partie d&#39;un projet, vous pourrez poster sur le forum de ce projet."
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:215
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:125
@@ -4168,12 +4168,12 @@ msgstr "Le navigateur de votre appareil ne peut être utilisé pour télécharge
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:40
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:29
 msgid "If you'd like to remove the existing group profile photo but not upload a new one, please use the delete group profile photo button."
-msgstr "Pour retirer le logo de groupe existant, mais ne pas en télécharger un nouveau, cliquez sur Supprimer."
+msgstr "Pour retirer le logo de projet existant, mais ne pas en télécharger un nouveau, cliquez sur Supprimer."
 
 #: bp-templates/bp-legacy/buddypress/assets/_attachments/avatars/index.php:41
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/group-avatar.php:31
 msgid "Delete Group Profile Photo"
-msgstr "Supprimer le logo du groupe"
+msgstr "Supprimer le logo du projet"
 
 #: bp-xprofile/classes/class-bp-xprofile-user-admin.php:484
 msgid "Delete Profile Photo"
@@ -4293,7 +4293,7 @@ msgstr "Mes favoris <span>%s</span>"
 #: bp-themes/bp-default/activity/index.php:61
 #: bp-themes/bp-default/groups/index.php:39
 msgid "My Groups <span>%s</span>"
-msgstr "Mes Groupes <span>%s</span>"
+msgstr "Mes projets <span>%s</span>"
 
 #: bp-themes/bp-default/activity/index.php:71
 msgid "The activity I've marked as a favorite."
@@ -4301,7 +4301,7 @@ msgstr "Les activités qui sont dans mes favoris."
 
 #: bp-themes/bp-default/activity/index.php:61
 msgid "The activity of groups I am a member of."
-msgstr "L'activité des groupes dont je suis membre."
+msgstr "L'activité des projets dont je suis membre."
 
 #: bp-themes/bp-default/activity/index.php:49
 #: bp-themes/bp-default/members/index.php:39
@@ -5543,23 +5543,23 @@ msgstr "Vous n'avez pas accés à ce contenu."
 
 #: bp-groups/bp-groups-widgets.php:85
 msgid "No groups matched the current filter."
-msgstr "Aucun groupe ne correspond au filtre de recherche"
+msgstr "Aucun projet ne correspond au filtre de recherche"
 
 #: bp-groups/classes/class-bp-groups-widget.php:222
 msgid "Default groups to show:"
-msgstr "Groupes par défaut à afficher:"
+msgstr "projets par défaut à afficher:"
 
 #: bp-groups/classes/class-bp-groups-widget.php:219
 msgid "Max groups to show:"
-msgstr "Maximum de groupes à afficher:"
+msgstr "Maximum de projets à afficher:"
 
 #: bp-groups/classes/class-bp-groups-widget.php:217
 msgid "Link widget title to Groups directory"
-msgstr "Lier le titre du widget au répertoire des groupes"
+msgstr "Lier le titre du widget au répertoire des projets"
 
 #: bp-groups/classes/class-bp-groups-widget.php:161
 msgid "There are no groups to display."
-msgstr "Aucun groupe à afficher"
+msgstr "Aucun projet à afficher"
 
 #: bp-groups/bp-groups-widgets.php:69
 #: bp-groups/classes/class-bp-groups-widget.php:141
@@ -5569,21 +5569,21 @@ msgstr "créé %s"
 #: bp-groups/classes/class-bp-groups-widget.php:31
 msgctxt "widget name"
 msgid "(BuddyPress) Groups"
-msgstr "(BuddyPress) Groupes"
+msgstr "(BuddyPress) projets"
 
 #: bp-groups/classes/class-bp-groups-widget.php:27
 msgid "A dynamic list of recently active, popular, and newest groups"
-msgstr "Liste les groupes récemment actifs, populaires ou nouveaux"
+msgstr "Liste les projets récemment actifs, populaires ou nouveaux"
 
 #: bp-groups/bp-groups-template.php:6300
 msgid "%s group"
 msgid_plural "%s groups"
-msgstr[0] "%s groupe"
-msgstr[1] "%s groupes"
+msgstr[0] "%s projet"
+msgstr[1] "%s projets"
 
 #: bp-groups/bp-groups-template.php:6018
 msgid "Group Activity RSS Feed"
-msgstr "Flux RSS des activités du groupe"
+msgstr "Flux RSS des activités du projet"
 
 #: bp-groups/bp-groups-template.php:5997
 msgid "Viewing %1$s - %2$s of %3$s invitation"
@@ -5627,7 +5627,7 @@ msgstr "Récemment adhérés"
 
 #: bp-groups/bp-groups-template.php:5392
 msgid "Group avatar"
-msgstr "Avatar du groupe"
+msgstr "Avatar du projet"
 
 #: bp-groups/bp-groups-template.php:4529
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:100
@@ -5647,7 +5647,7 @@ msgstr "Par ordre alphabétique"
 
 #: bp-groups/bp-groups-template.php:4526
 msgid "Group Activity"
-msgstr "Activités du groupe"
+msgstr "Activités du projet"
 
 #: bp-groups/bp-groups-template.php:4523
 msgid "Oldest"
@@ -5678,27 +5678,27 @@ msgstr "Trier par:"
 
 #: bp-groups/bp-groups-template.php:3690
 msgid "This is a hidden group and only invited members can join."
-msgstr "Ce groupe est masqué. Seuls des utilisateurs invités peuvent y participer."
+msgstr "Ce projet est masqué. Seuls des utilisateurs invités peuvent y participer."
 
 #: bp-groups/bp-groups-template.php:3682
 msgid "This is a private group. Your membership request is awaiting approval from the group administrator."
-msgstr "Ce groupe est privé. Votre demande d'inscription est en attente de validation par l'administrateur du groupe."
+msgstr "Ce projet est privé. Votre demande d'inscription est en attente de validation par l'administrateur du projet."
 
 #: bp-groups/bp-groups-template.php:3679
 msgid "This is a private group. To join you must be a registered site member and request group membership."
-msgstr "Ce groupe est privé ! Vous devez être membre du site, puis faire une demande d'adhésion au groupe."
+msgstr "Ce projet est privé ! Vous devez être membre du site, puis faire une demande d'adhésion au projet."
 
 #: bp-groups/bp-groups-template.php:3676
 msgid "This is a private group and you must request group membership in order to join."
-msgstr "Ce groupe est privé. Vous devez faire une demande d'adhésion pour y entrer."
+msgstr "Ce projet est privé. Vous devez faire une demande d'adhésion pour y entrer."
 
 #: bp-groups/bp-groups-template.php:3674
 msgid "You must accept your pending invitation before you can access this private group."
-msgstr "Vous devez accepter l'invitation en attente avant de pouvoir accéder à ce groupe privé."
+msgstr "Vous devez accepter l'invitation en attente avant de pouvoir accéder à ce projet privé."
 
 #: bp-groups/bp-groups-template.php:3663
 msgid "This group is not currently accessible."
-msgstr "Ce groupe n&#39;est pas accessible pour le moment."
+msgstr "Ce projet n&#39;est pas accessible pour le moment."
 
 #: bp-groups/bp-groups-template.php:3518
 #: bp-templates/bp-legacy/buddypress-functions.php:1497
@@ -5719,7 +5719,7 @@ msgstr "Accepter l&#39;invitation"
 #: bp-templates/bp-legacy/buddypress-functions.php:1495
 #: bp-themes/bp-default/_inc/ajax.php:785
 msgid "Join Group"
-msgstr "Adhérer à ce groupe"
+msgstr "Adhérer à ce projet"
 
 #: bp-groups/bp-groups-template.php:3449
 #: bp-templates/bp-legacy/buddypress-functions.php:1461
@@ -5727,7 +5727,7 @@ msgstr "Adhérer à ce groupe"
 #: bp-themes/bp-default/_inc/ajax.php:751
 #: bp-themes/bp-default/_inc/ajax.php:764
 msgid "Leave Group"
-msgstr "Quitter le groupe"
+msgstr "Quitter le projet"
 
 #: bp-groups/bp-groups-template.php:2862
 msgid "This action should not be used directly. Please use the BuddyPress Group Extension API to generate Manage tabs."
@@ -5735,7 +5735,7 @@ msgstr "Cette action ne doit pas être utilisée directement. Veuillez utiliser 
 
 #: bp-groups/bp-groups-template.php:2501
 msgid "This group has no moderators"
-msgstr "Ce groupe n'a pas de modérateur"
+msgstr "Ce projet n'a pas de modérateur"
 
 #: bp-groups/bp-groups-template.php:2467
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/manage-members.php:167
@@ -5747,12 +5747,12 @@ msgstr "Nommer comme admin"
 
 #: bp-groups/bp-groups-template.php:2428
 msgid "This group has no administrators"
-msgstr "Ce groupe n'a pas d'administrateur"
+msgstr "Ce projet n'a pas d'administrateur"
 
 #: bp-groups/bp-groups-template.php:2405 bp-groups/bp-groups-template.php:2481
 #: bp-groups/bp-groups-template.php:4234
 msgid "joined %s"
-msgstr "A intégré ce groupe %s"
+msgstr "A intégré ce projet %s"
 
 #: bp-groups/bp-groups-template.php:2392 bp-groups/bp-groups-template.php:2468
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/manage-members.php:74
@@ -5771,16 +5771,16 @@ msgstr[1] "%s membres"
 #: bp-groups/bp-groups-template.php:1869
 msgid "Viewing %1$s - %2$s of %3$s group"
 msgid_plural "Viewing %1$s - %2$s of %3$s groups"
-msgstr[0] "Affichage %1$s - %2$s sur %3$s groupe"
-msgstr[1] "Affichage %1$s - %2$s sur %3$s groupes"
+msgstr[0] "Affichage %1$s - %2$s sur %3$s projet"
+msgstr[1] "Affichage %1$s - %2$s sur %3$s projets"
 
 #: bp-groups/bp-groups-template.php:1867
 msgid "Viewing 1 group"
-msgstr "Aperçu: 1 groupe"
+msgstr "Aperçu: 1 projet"
 
 #: bp-groups/bp-groups-template.php:1767
 msgid "Filter Groups"
-msgstr "Filtrer les groupes"
+msgstr "Filtrer les projets"
 
 #: bp-groups/bp-groups-template.php:1627
 msgid "No Mods"
@@ -5792,7 +5792,7 @@ msgstr "Pas d'admin"
 
 #: bp-groups/bp-groups-template.php:1521
 msgid "Group creator profile photo of %s"
-msgstr "Photo du créateur du groupe %s"
+msgstr "Photo du créateur du projet %s"
 
 #: bp-groups/bp-groups-template.php:945
 msgid "not yet active"
@@ -5800,19 +5800,19 @@ msgstr "Inactif"
 
 #: bp-groups/bp-groups-template.php:692
 msgid "Group"
-msgstr "Groupe"
+msgstr "projet"
 
 #: bp-groups/bp-groups-template.php:690
 msgid "Private Group"
-msgstr "Groupe Privé"
+msgstr "projet Privé"
 
 #: bp-groups/bp-groups-template.php:688
 msgid "Hidden Group"
-msgstr "Groupe Masqué"
+msgstr "projet Masqué"
 
 #: bp-groups/bp-groups-template.php:686
 msgid "Public Group"
-msgstr "Groupe Public"
+msgstr "projet Public"
 
 #: bp-groups/classes/class-bp-groups-template.php:295
 msgctxt "Group pagination next text"
@@ -5827,40 +5827,40 @@ msgstr "&larr; "
 #: bp-groups/classes/class-bp-groups-theme-compat.php:177
 msgctxt "Group creation page"
 msgid "Groups"
-msgstr "Créer un groupe"
+msgstr "Créer un projet"
 
 #: bp-groups/bp-groups-screens.php:1524
 msgctxt "group settings on notification settings page"
 msgid "A member requests to join a private group for which you are an admin"
-msgstr "Un membre désire rejoindre un groupe privé dont vous êtes l'administrateur."
+msgstr "Un membre désire rejoindre un projet privé dont vous êtes l'administrateur."
 
 #: bp-groups/bp-groups-screens.php:1512
 msgctxt "group settings on notification settings page"
 msgid "You are promoted to a group administrator or moderator"
-msgstr "Vous êtes promu au rang d'administrateur ou de modérateur d'un groupe."
+msgstr "Vous êtes promu au rang d'administrateur ou de modérateur d'un projet."
 
 #: bp-groups/bp-groups-screens.php:1500
 msgctxt "group settings on notification settings page"
 msgid "Group information is updated"
-msgstr "Les informations sur ce groupe ont été mises à jour avec succès."
+msgstr "Les informations sur ce projet ont été mises à jour avec succès."
 
 #: bp-groups/bp-groups-screens.php:1488
 msgctxt "group settings on notification settings page"
 msgid "A member invites you to join a group"
-msgstr "Un membre vous invite à rejoindre un groupe"
+msgstr "Un membre vous invite à rejoindre un projet"
 
 #: bp-groups/bp-groups-screens.php:1479
 msgctxt "Group settings on notification settings page"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/bp-groups-screens.php:1412 bp-xprofile/bp-xprofile-admin.php:322
 msgid "There was an error deleting the group. Please try again."
-msgstr "Une erreur est survenue pendant la suppression du groupe. Veuillez recommencer."
+msgstr "Une erreur est survenue pendant la suppression du projet. Veuillez recommencer."
 
 #: bp-groups/bp-groups-screens.php:1343
 msgid "Group membership request rejected"
-msgstr "Demande d'adhésion au groupe rejetée."
+msgstr "Demande d'adhésion au projet rejetée."
 
 #: bp-groups/bp-groups-screens.php:1341
 msgid "There was an error rejecting the membership request. Please try again."
@@ -5868,7 +5868,7 @@ msgstr "Une erreur s'est produite pendant le traitement du rejet de la demande d
 
 #: bp-groups/bp-groups-screens.php:1332
 msgid "Group membership request accepted"
-msgstr "Demande d'adhésion au groupe acceptée."
+msgstr "Demande d'adhésion au projet acceptée."
 
 #: bp-groups/bp-groups-screens.php:1330
 msgid "There was an error accepting the membership request. Please try again."
@@ -5880,7 +5880,7 @@ msgstr "Suppression réussie"
 
 #: bp-groups/bp-groups-screens.php:1264
 msgid "There was an error removing that user from the group. Please try again."
-msgstr "Une erreur s'est produite pendant la suppression de l'utilisateur du groupe. Veuillez recommencer."
+msgstr "Une erreur s'est produite pendant la suppression de l'utilisateur du projet. Veuillez recommencer."
 
 #: bp-groups/bp-groups-screens.php:1240
 msgid "User ban removed successfully"
@@ -5916,7 +5916,7 @@ msgstr "Une erreur s'est produite pendant l'opération de promotion de l'utilisa
 
 #: bp-groups/bp-groups-screens.php:1068
 msgid "The new group profile photo was uploaded successfully."
-msgstr "Le nouveau logo du groupe a été téléchargé avec succès !"
+msgstr "Le nouveau logo du projet a été téléchargé avec succès !"
 
 #: bp-groups/bp-groups-screens.php:963
 msgid "Group settings were successfully updated."
@@ -5924,7 +5924,7 @@ msgstr "Réglages mis à jour avec succès."
 
 #: bp-groups/bp-groups-screens.php:961
 msgid "There was an error updating group settings. Please try again."
-msgstr "Une erreur s'est produite pendant la mise à jour des paramètres du groupe. Veuillez recommencer."
+msgstr "Une erreur s'est produite pendant la mise à jour des paramètres du projet. Veuillez recommencer."
 
 #: bp-groups/bp-groups-screens.php:865
 msgid "Group details were successfully updated."
@@ -5932,23 +5932,23 @@ msgstr "Options mises à jour avec succès !"
 
 #: bp-groups/bp-groups-screens.php:863
 msgid "There was an error updating group details. Please try again."
-msgstr "Une erreur s'est produite pendant la mise à jour des options du groupe. Veuillez recommencer."
+msgstr "Une erreur s'est produite pendant la mise à jour des options du projet. Veuillez recommencer."
 
 #: bp-groups/bp-groups-screens.php:756
 msgid "Your membership request was sent to the group administrator successfully. You will be notified when the group administrator responds to your request."
-msgstr "Votre demande d'adhésion a été envoyée avec succès. Vous recevrez une confirmation de l'administrateur du groupe lorsqu'il en aura pris connaissance."
+msgstr "Votre demande d'adhésion a été envoyée avec succès. Vous recevrez une confirmation de l'administrateur du projet lorsqu'il en aura pris connaissance."
 
 #: bp-groups/bp-groups-screens.php:754
 msgid "There was an error sending your group membership request. Please try again."
-msgstr "Une erreur est survenue pendant l'envoi de la demande d'adhésion au groupe. Veuillez recommencer."
+msgstr "Une erreur est survenue pendant l'envoi de la demande d'adhésion au projet. Veuillez recommencer."
 
 #: bp-groups/bp-groups-screens.php:742
 msgid "There was an error accepting the group invitation. Please try again."
-msgstr "Une erreur est survenue pendant la procédure d'acceptation de l'invitation à rejoindre ce groupe. Veuillez recommencer."
+msgstr "Une erreur est survenue pendant la procédure d'acceptation de l'invitation à rejoindre ce projet. Veuillez recommencer."
 
 #: bp-groups/bp-groups-screens.php:710
 msgid "The member requested to join the group"
-msgstr "Ce membre demande son adhésion au groupe"
+msgstr "Ce membre demande son adhésion au projet"
 
 #: bp-groups/bp-groups-screens.php:707
 msgid "You are not allowed to send or remove invites"
@@ -5956,15 +5956,15 @@ msgstr "Vous n'avez pas les droits suffisants pour envoyer ou supprimer des invi
 
 #: bp-groups/bp-groups-screens.php:651
 msgid "Group invites sent."
-msgstr "Les invitations à rejoindre le groupe ont été envoyées."
+msgstr "Les invitations à rejoindre le projet ont été envoyées."
 
 #: bp-groups/bp-groups-screens.php:552
 msgid "This group does not have a forum setup yet."
-msgstr "Ce groupe ne possède pas encore de forum."
+msgstr "Ce projet ne possède pas encore de forum."
 
 #: bp-groups/bp-groups-screens.php:512 bp-groups/bp-groups-screens.php:538
 msgid "You have been banned from this group."
-msgstr "Vous avez été banni de ce groupe."
+msgstr "Vous avez été banni de ce projet."
 
 #: bp-groups/bp-groups-screens.php:488
 msgid "The post was edited successfully"
@@ -6044,7 +6044,7 @@ msgstr "Il semblerait que vous ayez déjà dit celà !"
 
 #: bp-groups/bp-groups-screens.php:132
 msgid "Group invite rejected"
-msgstr "L'invitation à rejoindre le groupe a été rejetée."
+msgstr "L'invitation à rejoindre le projet a été rejetée."
 
 #: bp-groups/bp-groups-screens.php:130
 msgid "Group invite could not be rejected"
@@ -6052,11 +6052,11 @@ msgstr "Le forum n&#39;a pu être créé !"
 
 #: bp-groups/bp-groups-screens.php:105 bp-groups/bp-groups-screens.php:740
 msgid "Group invite accepted"
-msgstr "L'invitation à joindre le groupe est acceptée"
+msgstr "L'invitation à joindre le projet est acceptée"
 
 #: bp-groups/bp-groups-screens.php:103
 msgid "Group invite could not be accepted"
-msgstr "L'invitation à joindre le groupe n'a pu être acceptée"
+msgstr "L'invitation à joindre le projet n'a pu être acceptée"
 
 #. translators: accessibility text
 #: bp-groups/bp-groups-notifications.php:825
@@ -6066,31 +6066,31 @@ msgstr "Invitations"
 
 #: bp-groups/bp-groups-notifications.php:844
 msgid "You have an invitation to the group: %s"
-msgstr "Vous &ecirc;tes invit&eacute;(e) par le groupe %s"
+msgstr "Vous &ecirc;tes invit&eacute;(e) par le projet %s"
 
 #: bp-groups/bp-groups-notifications.php:810
 msgid "You have %d new group invitations"
-msgstr "Vous &ecirc;tes invité à rejoindre %d groupes."
+msgstr "Vous &ecirc;tes invité à rejoindre %d projets."
 
 #: bp-groups/bp-groups-notifications.php:762
 msgid "You were promoted to a mod in the group \"%s\""
-msgstr "Vous avez été nommé modérateur du groupe \"%s\""
+msgstr "Vous avez été nommé modérateur du projet \"%s\""
 
 #: bp-groups/bp-groups-notifications.php:727
 msgid "You were promoted to a mod in %d groups"
-msgstr "Vous avez été nommé modérateur de %d groupes"
+msgstr "Vous avez été nommé modérateur de %d projets"
 
 #: bp-groups/bp-groups-notifications.php:680
 msgid "You were promoted to an admin in the group \"%s\""
-msgstr "Vous avez été nommé administrateur du groupe %s"
+msgstr "Vous avez été nommé administrateur du projet %s"
 
 #: bp-groups/bp-groups-notifications.php:645
 msgid "You were promoted to an admin in %d groups"
-msgstr "Vous avez été nommé administrateur de %d groupes."
+msgstr "Vous avez été nommé administrateur de %d projets."
 
 #: bp-groups/bp-groups-notifications.php:596
 msgid "Membership for group \"%s\" rejected"
-msgstr "Adhésion au groupe \"%s\" rejetée"
+msgstr "Adhésion au projet \"%s\" rejetée"
 
 #: bp-groups/bp-groups-notifications.php:557
 msgid "%d rejected group membership requests"
@@ -6098,7 +6098,7 @@ msgstr "%d demandes d&#39;adhésion rejetées"
 
 #: bp-groups/bp-groups-notifications.php:507
 msgid "Membership for group \"%s\" accepted"
-msgstr "Adhésion au groupe \"%s\" acceptée."
+msgstr "Adhésion au projet \"%s\" acceptée."
 
 #: bp-groups/bp-groups-notifications.php:468
 msgid "%d accepted group membership requests"
@@ -6107,15 +6107,15 @@ msgstr "%d demandes d&#39;adhésion acceptées"
 #: bp-groups/bp-groups-notifications.php:413
 #: bp-groups/bp-groups-notifications.php:433
 msgid "%s requests group membership"
-msgstr "%s demande son adhésion au groupe"
+msgstr "%s demande son adhésion au projet"
 
 #: bp-groups/bp-groups-notifications.php:388
 msgid "Group Membership Requests"
-msgstr "Demandes d'adhésion au groupe"
+msgstr "Demandes d'adhésion au projet"
 
 #: bp-groups/bp-groups-notifications.php:367
 msgid "%1$d new membership requests for the group \"%2$s\""
-msgstr "%1$d nouvelles demandes d&#39;adhésion au groupe \"%2$s\""
+msgstr "%1$d nouvelles demandes d&#39;adhésion au projet \"%2$s\""
 
 #: bp-groups/bp-groups-notifications.php:239
 msgid "a moderator"
@@ -6132,12 +6132,12 @@ msgstr "* Description changée de \"%s\" à \"%s\""
 
 #: bp-groups/classes/class-bp-groups-component.php:828
 msgid "No Group Profile Photo"
-msgstr "Ce groupe n'a pas de logo"
+msgstr "Ce projet n'a pas de logo"
 
 #: bp-groups/classes/class-bp-groups-component.php:805
 msgctxt "My Groups page <title>"
 msgid "Memberships"
-msgstr "Mes groupes"
+msgstr "Mes projets"
 
 #: bp-groups/bp-groups-notifications.php:34
 msgctxt "Group update email text"
@@ -6147,7 +6147,7 @@ msgstr "* Nom changé de \"%s\" à \"%s\""
 #: bp-groups/classes/class-bp-groups-component.php:784
 msgctxt "My Account Groups sub nav"
 msgid "Create a Group"
-msgstr "Créer un groupe"
+msgstr "Créer un projet"
 
 #: bp-groups/classes/class-bp-groups-component.php:765
 msgctxt "My Account Groups sub nav"
@@ -6162,7 +6162,7 @@ msgstr "Aucune invitation en attente"
 #: bp-groups/classes/class-bp-groups-component.php:736
 msgctxt "My Account Groups"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/classes/class-bp-groups-component.php:681
 msgid "Requests"
@@ -6175,7 +6175,7 @@ msgstr "Photo"
 #: bp-groups/classes/class-bp-groups-component.php:623
 msgctxt "My Group screen nav"
 msgid "Manage"
-msgstr "Gestion du groupe"
+msgstr "Gestion du projet"
 
 #: bp-groups/classes/class-bp-groups-component.php:608
 msgctxt "My Group screen nav"
@@ -6194,7 +6194,7 @@ msgstr "Forum"
 #: bp-groups/classes/class-bp-groups-component.php:549
 msgctxt "Group screen nav"
 msgid "Request Membership"
-msgstr "Adhérer au groupe"
+msgstr "Adhérer au projet"
 
 #: bp-groups/classes/class-bp-groups-component.php:529
 msgctxt "Group screen navigation title"
@@ -6208,12 +6208,12 @@ msgstr "Invitations"
 #: bp-groups/classes/class-bp-groups-component.php:484
 #: bp-groups/classes/class-bp-groups-component.php:517
 msgid "Memberships"
-msgstr "Mes groupes"
+msgstr "Mes projets"
 
 #: bp-groups/classes/class-bp-groups-component.php:463
 msgctxt "Group screen nav without counter"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/classes/class-bp-groups-component.php:341
 msgctxt "Group screen nav"
@@ -6238,25 +6238,25 @@ msgstr "Informations"
 #: bp-groups/classes/class-bp-groups-component.php:193
 msgctxt "Component directory search"
 msgid "Search Groups..."
-msgstr "Rechercher un groupe..."
+msgstr "Rechercher un projet..."
 
 #: bp-core/bp-core-update.php:609
 msgctxt "component directory title"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/classes/class-bp-groups-component.php:105
 msgctxt "Group screen page <title>"
 msgid "User Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/bp-groups-functions.php:1212
 msgid "%1$s posted an update in the group %2$s"
-msgstr "%1$s a adressé une note au groupe %2$s"
+msgstr "%1$s a adressé une note au projet %2$s"
 
 #: bp-groups/bp-groups-functions.php:442
 msgid "As the only admin, you cannot leave the group."
-msgstr "En tant qu&#180;unique administrateur de ce groupe, vous ne pouvez pas le quitter."
+msgstr "En tant qu&#180;unique administrateur de ce projet, vous ne pouvez pas le quitter."
 
 #: bp-groups/bp-groups-functions.php:161
 #: bp-groups/classes/class-bp-groups-member.php:299
@@ -6265,11 +6265,11 @@ msgstr "Administration"
 
 #: bp-groups/bp-groups-forums.php:373
 msgid "%1$s edited the forum topic %2$s in the group %3$s"
-msgstr "%1$s a modifié le sujet %2$s sur le forum du groupe %3$s"
+msgstr "%1$s a modifié le sujet %2$s sur le forum du projet %3$s"
 
 #: bp-groups/bp-groups-forums.php:275
 msgid "%1$s started the forum topic %2$s in the group %3$s"
-msgstr "%1$s a créé le sujet %2$s sur le forum du groupe %3$s"
+msgstr "%1$s a créé le sujet %2$s sur le forum du projet %3$s"
 
 #: bp-groups/bp-groups-forums.php:148 bp-groups/bp-groups-forums.php:444
 msgid "%1$s replied to the forum topic %2$s in the group %3$s"
@@ -6288,7 +6288,7 @@ msgstr "Modifier le groupe %s"
 #. translators: accessibility text
 #: bp-groups/classes/class-bp-groups-list-table.php:470
 msgid "Select group %1$d"
-msgstr "Sélection du groupe %1$d"
+msgstr "Sélection du projet %1$d"
 
 #: bp-groups/classes/class-bp-groups-list-table.php:399
 msgctxt "Groups admin Last Active column header"
@@ -6335,7 +6335,7 @@ msgstr[1] "Publics <span class=\"count\">%s</span>"
 
 #: bp-groups/classes/class-bp-groups-list-table.php:227
 msgid "No groups found."
-msgstr "Aucun groupe trouvé."
+msgstr "Aucun projet trouvé."
 
 #. Translators: 1: user_login, 2: user_email.
 #: bp-groups/bp-groups-admin.php:1227
@@ -6381,7 +6381,7 @@ msgstr "Rôle"
 #: bp-groups/bp-groups-admin.php:914
 msgctxt "Group member role in group admin"
 msgid "Group Role"
-msgstr "Fonction au sein du groupe"
+msgstr "Fonction au sein du projet"
 
 #: bp-groups/bp-groups-admin.php:913
 msgctxt "Group member name in group admin"
@@ -6429,7 +6429,7 @@ msgstr "Pour saisir une liste, séparez les identifiants des utilisateur par des
 #: bp-themes/bp-default/groups/create.php:106
 #: bp-themes/bp-default/groups/single/admin.php:109
 msgid "Group admins only"
-msgstr "Uniquement les admins du groupe"
+msgstr "Uniquement les admins du projet"
 
 #: bp-groups/bp-groups-admin.php:820
 #: bp-templates/bp-legacy/buddypress/groups/create.php:184
@@ -6437,7 +6437,7 @@ msgstr "Uniquement les admins du groupe"
 #: bp-themes/bp-default/groups/create.php:101
 #: bp-themes/bp-default/groups/single/admin.php:104
 msgid "Group admins and mods only"
-msgstr "Uniquement les aministrateurs de groupe et les modérateurs "
+msgstr "Uniquement les aministrateurs de projet et les modérateurs "
 
 #: bp-groups/bp-groups-admin.php:819
 #: bp-templates/bp-legacy/buddypress/groups/create.php:182
@@ -6445,11 +6445,11 @@ msgstr "Uniquement les aministrateurs de groupe et les modérateurs "
 #: bp-themes/bp-default/groups/create.php:96
 #: bp-themes/bp-default/groups/single/admin.php:99
 msgid "All group members"
-msgstr "Tous les membres du groupe"
+msgstr "Tous les membres du projet"
 
 #: bp-groups/bp-groups-admin.php:817
 msgid "Who can invite others to this group?"
-msgstr "Qui peut inviter d'autres personnes à rejoindre le groupe ?"
+msgstr "Qui peut inviter d'autres personnes à rejoindre le projet ?"
 
 #: bp-groups/bp-groups-admin.php:811
 #: bp-groups/classes/class-bp-groups-list-table.php:607
@@ -6480,7 +6480,7 @@ msgstr "Activer le forum de discussion"
 
 #: bp-groups/bp-groups-admin.php:778
 msgid "Search all Groups"
-msgstr "Rechercher dans les groupes"
+msgstr "Rechercher dans les projets"
 
 #: bp-groups/bp-groups-admin.php:758 bp-groups/bp-groups-notifications.php:486
 #: bp-groups/bp-groups-notifications.php:575
@@ -6489,13 +6489,13 @@ msgstr "Rechercher dans les groupes"
 #: bp-groups/classes/class-bp-groups-widget.php:75
 #: bp-groups/classes/class-bp-groups-widget.php:202
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/bp-groups-admin.php:738
 msgid "%s group has been permanently deleted."
 msgid_plural "%s groups have been permanently deleted."
-msgstr[0] "%s groupe a été définitivement supprimé"
-msgstr[1] "%s groupes ont été définitivement supprimés."
+msgstr[0] "%s projet a été définitivement supprimé"
+msgstr[1] "%s projets ont été définitivement supprimés."
 
 #: bp-groups/bp-groups-admin.php:709
 #: bp-members/classes/class-bp-members-admin.php:2082
@@ -6504,15 +6504,15 @@ msgstr "Cette action est irréversible !"
 
 #: bp-groups/bp-groups-admin.php:701
 msgid "You are about to delete the following groups:"
-msgstr "Vous êtes sur le point de supprimer les groupes suivants:"
+msgstr "Vous êtes sur le point de supprimer les projets suivants:"
 
 #: bp-groups/bp-groups-admin.php:700
 msgid "Delete Groups"
-msgstr "Supprimer des groupes"
+msgstr "Supprimer des projets"
 
 #: bp-groups/bp-groups-admin.php:619
 msgid "Visit Group"
-msgstr "Visiter le groupe"
+msgstr "Visiter le projet"
 
 #: bp-groups/bp-groups-admin.php:619
 msgid "Permalink:"
@@ -6533,7 +6533,7 @@ msgstr "Les utilisateurs suivants ont bien été modifiés: %s"
 
 #: bp-groups/bp-groups-admin.php:552
 msgid "The following users were successfully added to the group: %s"
-msgstr "Les utilisateurs suivants ont bien été ajoutés au groupe: %s"
+msgstr "Les utilisateurs suivants ont bien été ajoutés au projet: %s"
 
 #: bp-groups/bp-groups-admin.php:557
 msgid "An error occurred when trying to modify the following members: %s"
@@ -6541,15 +6541,15 @@ msgstr "Une erreur est survenue pendant la modification du membre: %s"
 
 #: bp-groups/bp-groups-admin.php:548
 msgid "The following users could not be added to the group: %s"
-msgstr "L'utilisateur %s n'a pas pu être ajouté au groupe."
+msgstr "L'utilisateur %s n'a pas pu être ajouté au projet."
 
 #: bp-groups/bp-groups-admin.php:544
 msgid "The group has been updated successfully."
-msgstr "Le groupe a été mis à jour avec succès !"
+msgstr "Le projet a été mis à jour avec succès !"
 
 #: bp-groups/bp-groups-admin.php:539
 msgid "An error occurred when trying to update your group details."
-msgstr "Une erreur s'est produite pendant la mise à jour des détails du groupe."
+msgstr "Une erreur s'est produite pendant la mise à jour des détails du projet."
 
 #: bp-groups/bp-groups-admin.php:535
 msgid "Group name and description cannot be empty."
@@ -6557,19 +6557,19 @@ msgstr "Les champs Nom et Description ne peuvent rester vide."
 
 #: bp-groups/bp-groups-admin.php:531
 msgid "Group description cannot be empty."
-msgstr "Description du Groupe. Ce champ ne peut rester vide."
+msgstr "Description du projet. Ce champ ne peut rester vide."
 
 #: bp-groups/bp-groups-admin.php:527
 msgid "Group name cannot be empty."
-msgstr "Nom de Groupe. Ce champ ne peut rester vide."
+msgstr "Nom de projet. Ce champ ne peut rester vide."
 
 #: bp-groups/bp-groups-admin.php:521
 msgid "You cannot remove all administrators from a group."
-msgstr "Vous ne pouvez pas supprimer tous les administrateurs d'un groupe."
+msgstr "Vous ne pouvez pas supprimer tous les administrateurs d'un projet."
 
 #: bp-groups/bp-groups-admin.php:207
 msgid "If you leave this page, you will lose any unsaved changes you have made to the group."
-msgstr "Si vous quittez cette page sans sauvegarder vos modifications, vous perdrez toutes les informations relatives à ce groupe."
+msgstr "Si vous quittez cette page sans sauvegarder vos modifications, vous perdrez toutes les informations relatives à ce projet."
 
 #: bp-groups/bp-groups-admin.php:206
 msgid "Start typing a username to add a new member."
@@ -6577,28 +6577,28 @@ msgstr "Saisissez un nom d'utilisateur pour ajouter un nouveau membre."
 
 #: bp-groups/bp-groups-admin.php:183
 msgid "If you click \"Delete\" under a specific group, or select a number of groups and then choose Delete from the Bulk Actions menu, you will be led to a page where you&#8217;ll be asked to confirm the permanent deletion of the group(s)."
-msgstr "En cliquant sur \"Supprimer\" en-dessous d'un nom de groupe spécifique ou en sélectionnant plusieurs groupes puis en les supprimant à l'aide de l'action groupée, vous serez dirigé vers une page de confirmation de la suppression du ou des groupes."
+msgstr "En cliquant sur \"Supprimer\" en-dessous d'un nom de projet spécifique ou en sélectionnant plusieurs projets puis en les supprimant à l'aide de l'action groupée, vous serez dirigé vers une page de confirmation de la suppression du ou des projets."
 
 #: bp-groups/bp-groups-admin.php:182
 msgid "Clicking \"Edit\" will take you to a Dashboard panel where you can manage various details about the group, such as its name and description, its members, and other settings."
-msgstr "En cliquant sur \"Modifier\" vous accèderez à un tableau de bord depuis lequel vous pourrez gérer différents détails concernant le groupe, tels que son nom et sa description, ses membres et d'autres réglages."
+msgstr "En cliquant sur \"Modifier\" vous accèderez à un tableau de bord depuis lequel vous pourrez gérer différents détails concernant le projet, tels que son nom et sa description, ses membres et d'autres réglages."
 
 #: bp-groups/bp-groups-admin.php:181
 msgid "Clicking \"Visit\" will take you to the group&#8217;s public page. Use this link to see what the group looks like on the front end of your site."
-msgstr "En cliquant sur \"Visiter\" vous accèderez à la page publique du groupe. Utilisez ce lien pour voir à quoi ressemble le groupe sur la partie publique de votre site."
+msgstr "En cliquant sur \"Visiter\" vous accèderez à la page publique du projet. Utilisez ce lien pour voir à quoi ressemble le projet sur la partie publique de votre site."
 
 #: bp-groups/bp-groups-admin.php:179
 msgid "Group Actions"
-msgstr "Actions du groupe"
+msgstr "Actions du projet"
 
 #: bp-groups/bp-groups-admin.php:174
 msgid "You can manage groups much like you can manage comments and other content. This screen is customizable in the same ways as other management screens, and you can act on groups by using the on-hover action links or the Bulk Actions."
-msgstr "Vous pouvez gérer les groupes de la même manière que vous gérer les commentaires ou les autres contenus. Cet écran est configurable comme les autres écrans de gestion. Vous pouvez agir sur les groupes en sélectionnant par survol un ou plusieurs liens ou utiliser un action groupée."
+msgstr "Vous pouvez gérer les projets de la même manière que vous gérer les commentaires ou les autres contenus. Cet écran est configurable comme les autres écrans de gestion. Vous pouvez agir sur les projets en sélectionnant par survol un ou plusieurs liens ou utiliser un action groupée."
 
 #: bp-groups/bp-groups-admin.php:167
 msgctxt "Groups per page (screen options)"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/bp-groups-admin.php:135
 msgctxt "group admin edit screen"
@@ -6630,41 +6630,41 @@ msgstr "Les deux zones d'éditions que sont le titre et le contenu de l'activit�
 
 #: bp-groups/bp-groups-admin.php:121
 msgid "This page is a convenient way to edit the details associated with one of your groups."
-msgstr "Cette page est un moyen pratique de modifier les détails associés à un de vos groupes."
+msgstr "Cette page est un moyen pratique de modifier les détails associés à un de vos projets."
 
 #: bp-groups/bp-groups-admin.php:37
 msgctxt "Admin Groups menu"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-groups/bp-groups-admin.php:36
 msgctxt "Admin Groups page title"
 msgid "Groups"
-msgstr "Gestion des groupes"
+msgstr "Gestion des projets"
 
 #: bp-groups/bp-groups-activity.php:191
 msgid "%1$s changed the description of the group %2$s from \"%3$s\" to \"%4$s\""
-msgstr "%1$s a changé la description du groupe %2$s de \"%3$s\" à \"%4$s\""
+msgstr "%1$s a changé la description du projet %2$s de \"%3$s\" à \"%4$s\""
 
 #: bp-groups/bp-groups-activity.php:187
 msgid "%1$s changed the name of the group %2$s from \"%3$s\" to \"%4$s\""
-msgstr "%1$s a changé le nom du groupe %2$s de \"%3$s\" à \"%4$s\""
+msgstr "%1$s a changé le nom du projet %2$s de \"%3$s\" à \"%4$s\""
 
 #: bp-groups/bp-groups-activity.php:183
 msgid "%1$s changed the name and description of the group %2$s"
-msgstr "%1$s a modifié le nom et la description du groupe %2$s"
+msgstr "%1$s a modifié le nom et la description du projet %2$s"
 
 #: bp-groups/bp-groups-activity.php:179
 msgid "%1$s updated details for the group %2$s"
-msgstr "%1$s a mis à jour les options du groupe %2$s"
+msgstr "%1$s a mis à jour les options du projet %2$s"
 
 #: bp-groups/bp-groups-activity.php:132 bp-groups/bp-groups-activity.php:435
 msgid "%1$s joined the group %2$s"
-msgstr "%1$s a rejoint le groupe %2$s"
+msgstr "%1$s a rejoint le projet %2$s"
 
 #: bp-groups/bp-groups-activity.php:104
 msgid "%1$s created the group %2$s"
-msgstr "%1$s a créé le groupe %2$s"
+msgstr "%1$s a créé le projet %2$s"
 
 #: bp-groups/bp-groups-activity.php:75
 #: bp-themes/bp-default/activity/index.php:111
@@ -6690,60 +6690,60 @@ msgstr "Nouveau sujet sur le forum"
 
 #: bp-groups/bp-groups-activity.php:53
 msgid "Group Updates"
-msgstr "Mises à jour du Groupe"
+msgstr "Mises à jour du projet"
 
 #: bp-groups/bp-groups-activity.php:51
 msgid "Group details edited"
-msgstr "Options du groupe mises à jour"
+msgstr "Options du projet mises à jour"
 
 #: bp-groups/bp-groups-activity.php:44
 #: bp-themes/bp-default/activity/index.php:118
 #: bp-themes/bp-default/groups/single/activity.php:18
 #: bp-themes/bp-default/members/single/activity.php:51
 msgid "Group Memberships"
-msgstr "Demandes d'adhésion au groupe"
+msgstr "Demandes d'adhésion au projet"
 
 #: bp-groups/bp-groups-activity.php:42
 msgid "Joined a group"
-msgstr "a rejoint un groupe"
+msgstr "a rejoint un projet"
 
 #: bp-groups/bp-groups-activity.php:35
 #: bp-themes/bp-default/activity/index.php:117
 #: bp-themes/bp-default/members/single/activity.php:50
 msgid "New Groups"
-msgstr "Nouveaux groupes"
+msgstr "Nouveaux projets"
 
 #: bp-groups/bp-groups-activity.php:33
 msgid "Created a group"
-msgstr "a créé un groupe"
+msgstr "a créé un projet"
 
 #: bp-groups/bp-groups-actions.php:565
 msgid "Activity feed for the group, %s."
-msgstr "Activités du groupe %s"
+msgstr "Activités du projet %s"
 
 #: bp-groups/bp-groups-actions.php:465 bp-groups/bp-groups-functions.php:451
 msgid "You successfully left the group."
-msgstr "Vous avez bien quitté le groupe."
+msgstr "Vous avez bien quitté le projet."
 
 #: bp-groups/bp-groups-actions.php:463
 msgid "There was an error leaving the group."
-msgstr "Une erreur s'est produite pendant le retrait du groupe"
+msgstr "Une erreur s'est produite pendant le retrait du projet"
 
 #: bp-groups/bp-groups-actions.php:461 bp-groups/bp-groups-screens.php:1182
 msgid "This group must have at least one admin"
-msgstr "Vous devez désigner au moins un administrateur pour ce groupe."
+msgstr "Vous devez désigner au moins un administrateur pour ce projet."
 
 #: bp-groups/bp-groups-actions.php:414
 msgid "You joined the group!"
-msgstr "Vous venez de rejoindre le groupe !"
+msgstr "Vous venez de rejoindre le projet !"
 
 #: bp-groups/bp-groups-actions.php:405 bp-groups/bp-groups-actions.php:412
 msgid "There was an error joining the group."
-msgstr "Une erreur s'est produite, l'admission au sein du groupe n'a pas été effectuée."
+msgstr "Une erreur s'est produite, l'admission au sein du projet n'a pas été effectuée."
 
 #: bp-groups/bp-groups-actions.php:364
 msgid "There was an error saving the group profile photo, please try uploading again."
-msgstr "Une erreur est survenue pendant l'enregistrement du logo du groupe. Essayez de le télécharger à nouveau."
+msgstr "Une erreur est survenue pendant l'enregistrement du logo du projet. Essayez de le télécharger à nouveau."
 
 #: bp-groups/bp-groups-actions.php:335 bp-groups/bp-groups-screens.php:713
 msgid "There was an error removing the invite"
@@ -6759,7 +6759,7 @@ msgstr "Veuillez remplir tous les champs."
 
 #: bp-groups/bp-groups-actions.php:165
 msgid "Only the group creator may continue editing this group."
-msgstr "Seul le créateur du groupe peut modifier ce groupe."
+msgstr "Seul le créateur du projet peut modifier ce projet."
 
 #: bp-groups/bp-groups-actions.php:150 bp-groups/bp-groups-actions.php:185
 #: bp-groups/bp-groups-actions.php:209
@@ -6768,15 +6768,15 @@ msgstr "Une erreur est survenue. Veuillez essayer à nouveau."
 
 #: bp-groups/bp-groups-actions.php:125
 msgid "Sorry, you are not allowed to create groups."
-msgstr "Désolé, mais vous n'avez pas les droits suffisants pour créer un groupe."
+msgstr "Désolé, mais vous n'avez pas les droits suffisants pour créer un projet."
 
 #: bp-groups/bp-groups-actions.php:65
 msgid "You are not an admin of this group."
-msgstr "Vous n'êtes pas un administrateur de ce groupe."
+msgstr "Vous n'êtes pas un administrateur de ce projet."
 
 #: bp-groups/bp-groups-actions.php:54
 msgid "You do not have access to this group."
-msgstr "Vous n'avez pas accés à ce groupe"
+msgstr "Vous n'avez pas accés à ce projet"
 
 #: bp-friends/bp-friends-widgets.php:93 bp-members/bp-members-widgets.php:107
 msgid "There were no members found, please try another filter."
@@ -7048,7 +7048,7 @@ msgstr "Utiliser l'installation existante"
 
 #: bp-forums/deprecated/1.6.php:230
 msgid "Install Group Forums"
-msgstr "Installer un forum de groupe"
+msgstr "Installer un forum de projet"
 
 #: bp-forums/deprecated/1.6.php:203
 msgid "bbPress files were not found. To install the forums component you must download a copy of bbPress and make sure it is in the folder: \"%s\""
@@ -7100,7 +7100,7 @@ msgstr "Le fichier %s n&#39;a pas été trouvé à l&#39;endroit indiqué. Essay
 
 #: bp-forums/deprecated/1.6.php:100 bp-forums/deprecated/1.6.php:251
 msgid "If you decide to use bbPress, you will need to deactivate the legacy group forum component.  For more info, <a href=\"%s\">read this codex article</a>."
-msgstr "Si vous décidez d'utiliser bbPress, vous devez désactiver l'ancien composant de forum de groupe. Pour plus d'informations, veuillez consulter <a href=\"%s\">le codex</a>."
+msgstr "Si vous décidez d'utiliser bbPress, vous devez désactiver l'ancien composant de forum de projet. Pour plus d'informations, veuillez consulter <a href=\"%s\">le codex</a>."
 
 #: bp-forums/deprecated/1.6.php:97 bp-forums/deprecated/1.6.php:248
 msgid "And more!"
@@ -7128,7 +7128,7 @@ msgstr "Modération depuis le Tableau de Bord de l'administration"
 
 #: bp-forums/deprecated/1.6.php:91 bp-forums/deprecated/1.6.php:242
 msgid "Non-group specific forum creation"
-msgstr "Création de forum séparée des groupes"
+msgstr "Création de forum séparée des projets"
 
 #: bp-forums/deprecated/1.6.php:88 bp-forums/deprecated/1.6.php:239
 msgid "It boasts a bunch of cool features that the BP Legacy Discussion Forums does not have including:"
@@ -7144,7 +7144,7 @@ msgstr "Nouveau ! bbPress"
 
 #: bp-forums/deprecated/1.6.php:80
 msgid "Uninstall Group Forums"
-msgstr "Désinstaller un forum de groupe"
+msgstr "Désinstaller un forum de projet"
 
 #: bp-forums/deprecated/1.6.php:76 bp-forums/deprecated/1.6.php:226
 msgid "@ Mention Integration"
@@ -7160,7 +7160,7 @@ msgstr "Intégration du profil"
 
 #: bp-forums/deprecated/1.6.php:73 bp-forums/deprecated/1.6.php:223
 msgid "Group Integration"
-msgstr "Intégration de groupe"
+msgstr "Intégration de projet"
 
 #: bp-forums/deprecated/1.6.php:71 bp-forums/deprecated/1.6.php:221
 msgid "Features"
@@ -7172,11 +7172,11 @@ msgstr "Important: ce composant a été retiré et ne sera plus mis à jour. Ne 
 
 #: bp-forums/deprecated/1.6.php:67 bp-forums/deprecated/1.6.php:217
 msgid "Give each individual group its own discussion forum. Choose this if you'd like to keep your members' conversations separated into distinct areas."
-msgstr "Attribuer un forum de discussion à chaque groupe. Choisissez cette option si vous voulez permettre à vos membres de discuter dans des espaces séparés."
+msgstr "Attribuer un forum de discussion à chaque projet. Choisissez cette option si vous voulez permettre à vos membres de discuter dans des espaces séparés."
 
 #: bp-forums/deprecated/1.6.php:65 bp-forums/deprecated/1.6.php:215
 msgid "Forums for Groups"
-msgstr "Forums de groupes"
+msgstr "Forums de projets"
 
 #: bp-forums/deprecated/1.6.php:65
 msgid "(Installed)"
@@ -7258,7 +7258,7 @@ msgstr "%d articles"
 
 #: bp-forums/bp-forums-template.php:1169
 msgid "Group logo for %s"
-msgstr "Logo du groupe %s"
+msgstr "Logo du projet %s"
 
 #: bp-forums/bp-forums-template.php:930 bp-forums/bp-forums-template.php:1111
 #: bp-forums/bp-forums-template.php:2646
@@ -7593,7 +7593,7 @@ msgstr "Auteurs du blog"
 #: bp-themes/bp-default/groups/single/admin.php:360
 #: bp-xprofile/bp-xprofile-admin.php:157
 msgid "Delete Group"
-msgstr "Supprimer ce groupe"
+msgstr "Supprimer ce projet"
 
 #: bp-core/deprecated/2.1.php:387
 msgid "Membership Requests"
@@ -7611,7 +7611,7 @@ msgstr "Gestion des invitations"
 #: bp-core/deprecated/2.1.php:373
 #: bp-groups/classes/class-bp-groups-component.php:824
 msgid "Group Profile Photo"
-msgstr "Logo du groupe"
+msgstr "Logo du projet"
 
 #. translators: accessibility text
 #: bp-core/deprecated/2.1.php:369
@@ -7633,7 +7633,7 @@ msgstr "Site au hasard"
 
 #: bp-core/deprecated/2.1.php:298
 msgid "Random Group"
-msgstr "Groupe au hasard"
+msgstr "projet au hasard"
 
 #: bp-core/deprecated/2.1.php:294
 msgid "Random Member"
@@ -7698,7 +7698,7 @@ msgstr "Récemment actifs"
 
 #: bp-core/deprecated/1.5.php:358
 msgid "%1$s mentioned you in the group \"%2$s\""
-msgstr "%1$s vous cite dans le groupe \"%2$s\""
+msgstr "%1$s vous cite dans le projet \"%2$s\""
 
 #: bp-core/deprecated/1.5.php:198
 #: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:80
@@ -7752,8 +7752,8 @@ msgstr "Mon profil"
 #: bp-groups/classes/class-bp-groups-invite-template.php:245
 msgid "%d group"
 msgid_plural "%d groups"
-msgstr[0] "%d groupe"
-msgstr[1] "%d groupes"
+msgstr[0] "%d projet"
+msgstr[1] "%d projets"
 
 #: bp-core/classes/class-bp-attachment.php:515
 msgid "File successfully uploaded."
@@ -7820,22 +7820,22 @@ msgstr "Le fichier a été téléchargé avec succès."
 #: bp-core/classes/class-bp-attachment-avatar.php:387
 #: bp-groups/bp-groups-screens.php:1021
 msgid "The group profile photo was deleted successfully!"
-msgstr "Le logo du groupe a été correctement supprimé !"
+msgstr "Le logo du projet a été correctement supprimé !"
 
 #: bp-core/classes/class-bp-attachment-avatar.php:386
 #: bp-groups/bp-groups-screens.php:1023
 msgid "There was a problem deleting the group profile photo. Please try again."
-msgstr "Une erreur s'est produite pendant la suppression du logo du groupe. Veuillez recommencer."
+msgstr "Une erreur s'est produite pendant la suppression du logo du projet. Veuillez recommencer."
 
 #: bp-core/classes/class-bp-attachment-avatar.php:385
 #: bp-groups/bp-groups-actions.php:366
 msgid "The group profile photo was uploaded successfully."
-msgstr "La photo d'illustration du groupe a été téléchargée avec succès."
+msgstr "La photo d'illustration du projet a été téléchargée avec succès."
 
 #: bp-core/classes/class-bp-attachment-avatar.php:384
 #: bp-groups/bp-groups-screens.php:1066
 msgid "There was a problem cropping the group profile photo."
-msgstr "Un problème est survenu pendant le retaillage du logo de groupe."
+msgstr "Un problème est survenu pendant le retaillage du logo de projet."
 
 #: bp-core/classes/class-bp-attachment-avatar.php:369
 #: bp-xprofile/bp-xprofile-actions.php:40
@@ -7951,7 +7951,7 @@ msgstr "Blogs"
 #: bp-core/bp-core-template.php:546
 msgctxt "search form"
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-core/bp-core-template.php:542
 msgctxt "search form"
@@ -8073,7 +8073,7 @@ msgstr "Sites"
 #: bp-core/bp-core-functions.php:708
 msgctxt "Page title for the Groups directory."
 msgid "Groups"
-msgstr "Groupes"
+msgstr "projets"
 
 #: bp-core/bp-core-functions.php:707
 msgctxt "Page title for the Activity directory."
@@ -8088,7 +8088,7 @@ msgstr "Page %s"
 #: bp-themes/bp-default/groups/create.php:18
 #: bp-themes/bp-default/groups/index.php:21
 msgid "Create a Group"
-msgstr "Créer un groupe"
+msgstr "Créer un projet"
 
 #: bp-themes/bp-default/registration/activate.php:13
 msgid "Activate your Account"
@@ -8463,7 +8463,7 @@ msgstr "Réparer les données"
 
 #: bp-core/classes/class-bp-admin.php:598
 msgid "Manage Groups"
-msgstr "Gestion des groupes"
+msgstr "Gestion des projets"
 
 #: bp-core/classes/class-bp-admin.php:595
 msgid "Moderate Activity Streams"
@@ -8535,19 +8535,19 @@ msgstr "Configuration de bbPress"
 
 #: bp-core/classes/class-bp-admin.php:446
 msgid "Legacy Group Forums"
-msgstr "Forums de groupes hérités"
+msgstr "Forums de projets hérités"
 
 #: bp-core/classes/class-bp-admin.php:431
 msgid "Group Photo Uploads"
-msgstr "Photo de groupe"
+msgstr "Photo de projet"
 
 #: bp-core/classes/class-bp-admin.php:427
 msgid "Group Creation"
-msgstr "Création de groupe"
+msgstr "Création de projet"
 
 #: bp-core/classes/class-bp-admin.php:424
 msgid "Groups Settings"
-msgstr "Paramètres des groupes"
+msgstr "Paramètres des projets"
 
 #: bp-core/classes/class-bp-admin.php:415
 msgid "Profile Syncing"
@@ -8635,7 +8635,7 @@ msgstr "Reconstitution des enregistrements de blogs&hellip; %s"
 
 #: bp-core/admin/bp-core-admin-tools.php:234
 msgid "Counting the number of groups for each user&hellip; %s"
-msgstr "Comptage du nombre de groupes de chaque utilisateur&hellip; %s"
+msgstr "Comptage du nombre de projets de chaque utilisateur&hellip; %s"
 
 #: bp-core/admin/bp-core-admin-tools.php:217
 #: bp-core/admin/bp-core-admin-tools.php:264
@@ -8673,7 +8673,7 @@ msgstr "Utilisez l'outil ci-dessous pour recalculer manuellement ces relations."
 
 #: bp-core/admin/bp-core-admin-tools.php:409
 msgid "BuddyPress keeps track of various relationships between users, groups, and activity items. Occasionally these relationships become out of sync, most often after an import, update, or migration."
-msgstr "BuddyPress conserve les traces des différentes relations établies entre utilisateurs, groupes et éléments d'activités. Occasionellement, ces relations peuvent se désynchroniser, le plus souvent après une importation, une mise à jour ou une migration."
+msgstr "BuddyPress conserve les traces des différentes relations établies entre utilisateurs, projets et éléments d'activités. Occasionellement, ces relations peuvent se désynchroniser, le plus souvent après une importation, une mise à jour ou une migration."
 
 #: bp-core/admin/bp-core-admin-tools.php:22
 #: bp-core/admin/bp-core-admin-tools.php:407
@@ -8723,15 +8723,15 @@ msgstr "Tentative d'enregistrement d'une nouvelle configuration"
 
 #: bp-core/admin/bp-core-admin-settings.php:202
 msgid "Allow customizable avatars for groups"
-msgstr "Autoriser le téléchargement d'avatars de groupes."
+msgstr "Autoriser le téléchargement d'avatars de projets."
 
 #: bp-core/admin/bp-core-admin-settings.php:189
 msgid "Administrators can always create groups, regardless of this setting."
-msgstr "Les administrateurs peuvent toujours créer des groupes, indépendamment de ces réglages."
+msgstr "Les administrateurs peuvent toujours créer des projets, indépendamment de ces réglages."
 
 #: bp-core/admin/bp-core-admin-settings.php:188
 msgid "Enable group creation for all users"
-msgstr "Tous les utilisateurs sont autorisés à créer des groupes."
+msgstr "Tous les utilisateurs sont autorisés à créer des projets."
 
 #: bp-core/admin/bp-core-admin-settings.php:152
 msgid "Allow registered members to upload avatars"
@@ -8914,23 +8914,23 @@ msgstr "Traçage du Blog"
 
 #: bp-core/bp-core-functions.php:2472
 msgid "Group forums allow for focused, bulletin-board style conversations."
-msgstr "Les forums de groupe, pour des conversations et  discussions en petit réseau."
+msgstr "Les forums de projet, pour des conversations et  discussions en petit réseau."
 
 #: bp-core/bp-core-functions.php:2471
 msgid "Group Forums (Legacy)"
-msgstr "Forums de groupes (héritage)"
+msgstr "Forums de projets (héritage)"
 
 #: bp-core/bp-core-functions.php:2468
 msgid "Groups allow your users to organize themselves into specific public, private or hidden sections with separate activity streams and member listings."
-msgstr "De puissantes options de groupe: public, privé ou masqué, qui favorisent les discussions entre usagers, avec un rapport d'activité par groupe et une liste de membres spécifique."
+msgstr "De puissantes options de projet: public, privé ou masqué, qui favorisent les discussions entre usagers, avec un rapport d'activité par projet et une liste de membres spécifique."
 
 #: bp-core/bp-core-functions.php:2467
 msgid "User Groups"
-msgstr "Mes groupes"
+msgstr "Mes projets"
 
 #: bp-core/bp-core-functions.php:2460
 msgid "Global, personal, and group activity streams with threaded commenting, direct posting, favoriting, and @mentions, all with full RSS feed and email notification support."
-msgstr "Rapports d'activité globale, personnelle et de groupe, avec commentaires imbriqués, publication directe, ajout de favoris et @mentions. Tous suivi par flux RSS et par notification par mail."
+msgstr "Rapports d'activité globale, personnelle et de projet, avec commentaires imbriqués, publication directe, ajout de favoris et @mentions. Tous suivi par flux RSS et par notification par mail."
 
 #: bp-core/bp-core-functions.php:2456
 msgid "Allow your users to talk to each other directly and in private. Not just limited to one-on-one discussions, messages can be sent between any number of members."
@@ -8956,7 +8956,7 @@ msgstr "Les Forums BuddyPress ont été  retirés. Utilisez %s."
 #: bp-templates/bp-legacy/buddypress/groups/create.php:194
 #: bp-themes/bp-default/groups/create.php:112
 msgid "Group Forums"
-msgstr "Forums de groupes"
+msgstr "Forums de projets"
 
 #: bp-core/bp-core-functions.php:2430
 msgid "Everything in a BuddyPress community revolves around its members."
@@ -9391,11 +9391,11 @@ msgstr "Illustration du profil de %s"
 #: bp-groups/bp-groups-template.php:792
 #: bp-groups/classes/class-bp-groups-list-table.php:554
 msgid "Group logo of %s"
-msgstr "Logo du groupe %s"
+msgstr "Logo du projet %s"
 
 #: bp-activity/bp-activity-template.php:1186
 msgid "Group logo"
-msgstr "Logo du groupe"
+msgstr "Logo du projet"
 
 #: bp-activity/bp-activity-template.php:1041
 msgid "Profile picture"
@@ -9491,7 +9491,7 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
-"%1$s vous cite dans le groupe \"%2$s\":\n"
+"%1$s vous cite dans le projet \"%2$s\":\n"
 "\n"
 "\"%3$s\"\n"
 "\n"
@@ -9534,7 +9534,7 @@ msgstr "Mes activités"
 #: bp-activity/classes/class-bp-activity-component.php:335
 msgctxt "My Account Activity sub nav"
 msgid "Groups"
-msgstr "Mes groupes"
+msgstr "Mes projets"
 
 #: bp-activity/classes/class-bp-activity-component.php:324
 msgctxt "My Account Activity sub nav"
@@ -9564,7 +9564,7 @@ msgstr "Mes citations"
 #: bp-activity/classes/class-bp-activity-component.php:234
 msgctxt "Profile activity screen sub nav"
 msgid "Groups"
-msgstr "Mes groupes"
+msgstr "Mes projets"
 
 #: bp-activity/classes/class-bp-activity-component.php:221
 msgctxt "Profile activity screen sub nav"
@@ -10042,7 +10042,7 @@ msgstr "Pour savoir quand et comment utiliser ces paramètres, consultez le Gest
 
 #: bp-activity/bp-activity-admin.php:239
 msgid "<strong>Type</strong> - Each distinct kind of activity has its own type. For example, <code>created_group</code> is used when a group is created and <code>joined_group</code> is used when a user joins a group."
-msgstr "<strong>Type</strong> - Chaque sorte d&#39;activité a son propre type. Par exemple, <code>created_group</code> est utilisé quand un groupe est créé et <code>joined_group</code> est utilisé quand un utilisateur rejoint le groupe."
+msgstr "<strong>Type</strong> - Chaque sorte d&#39;activité a son propre type. Par exemple, <code>created_group</code> est utilisé quand un projet est créé et <code>joined_group</code> est utilisé quand un utilisateur rejoint le projet."
 
 #: bp-activity/bp-activity-admin.php:238
 msgid "<strong>Link</strong> - Used by some types of activity (e.g blog posts and comments, and forum topics and replies) to store a link back to the original content."
@@ -10119,13 +10119,13 @@ msgstr "%1$s | %2$s | Mentions"
 
 #: bp-activity/bp-activity-actions.php:535
 msgid "Public group activity feed of which %s is a member."
-msgstr "Fil d'activité du groupe public dont %s est membre."
+msgstr "Fil d'activité du projet public dont %s est membre."
 
 #. translators: Member groups activity RSS title - "[Site Name] | [User Display
 #. Name] | Groups Activity"
 #: bp-activity/bp-activity-actions.php:532
 msgid "%1$s | %2$s | Group Activity"
-msgstr "%1$s | %2$s | Activités du groupe"
+msgstr "%1$s | %2$s | Activités du projet"
 
 #: bp-activity/bp-activity-actions.php:505
 msgid "Activity feed for %s's friends."

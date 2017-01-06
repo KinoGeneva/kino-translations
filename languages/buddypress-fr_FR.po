@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Plugins - BuddyPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-09 20:27+0100\n"
+"PO-Revision-Date: 2017-01-06 11:53+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.1\n"
 "Language: fr\n"
 "Project-Id-Version: Plugins - BuddyPress - Stable (latest release)\n"
 "POT-Creation-Date: \n"
@@ -2232,7 +2232,8 @@ msgstr "%1$s &mdash; %2$s"
 #: bp-friends/bp-friends-screens.php:127 bp-friends/bp-friends-screens.php:139
 #: bp-groups/bp-groups-screens.php:1491 bp-groups/bp-groups-screens.php:1503
 #: bp-groups/bp-groups-screens.php:1515 bp-groups/bp-groups-screens.php:1527
-#: bp-groups/bp-groups-screens.php:1539 bp-messages/bp-messages-screens.php:221
+#: bp-groups/bp-groups-screens.php:1539
+#: bp-messages/bp-messages-screens.php:221
 msgid "Yes, send email"
 msgstr "Oui, envoyer un email"
 
@@ -2242,7 +2243,8 @@ msgstr "Oui, envoyer un email"
 #: bp-friends/bp-friends-screens.php:131 bp-friends/bp-friends-screens.php:143
 #: bp-groups/bp-groups-screens.php:1495 bp-groups/bp-groups-screens.php:1507
 #: bp-groups/bp-groups-screens.php:1519 bp-groups/bp-groups-screens.php:1531
-#: bp-groups/bp-groups-screens.php:1543 bp-messages/bp-messages-screens.php:225
+#: bp-groups/bp-groups-screens.php:1543
+#: bp-messages/bp-messages-screens.php:225
 msgid "No, do not send email"
 msgstr "Non, ne pas envoyer d'email"
 
@@ -4000,14 +4002,14 @@ msgstr "Options de confidentialit&eacute;"
 #: bp-themes/bp-default/groups/create.php:42
 #: bp-themes/bp-default/groups/single/admin.php:19
 msgid "Group Description (required)"
-msgstr "Description du projet (obligatoire)"
+msgstr "Synopsis (obligatoire)"
 
 #: bp-templates/bp-legacy/buddypress/groups/create.php:74
 #: bp-templates/bp-legacy/buddypress/groups/single/admin/edit-details.php:22
 #: bp-themes/bp-default/groups/create.php:39
 #: bp-themes/bp-default/groups/single/admin.php:16
 msgid "Group Name (required)"
-msgstr "Nom du projet (obligatoire)"
+msgstr "Titre de travail (obligatoire)"
 
 #: bp-templates/bp-legacy/buddypress/forums/index.php:227
 #: bp-themes/bp-default/forums/index.php:145
@@ -9916,7 +9918,8 @@ msgstr "Mettre à jour"
 #: bp-activity/classes/class-bp-activity-list-table.php:599
 #: bp-forums/bp-forums-template.php:2781
 #: bp-groups/classes/class-bp-groups-list-table.php:527
-#: bp-themes/bp-default/functions.php:524 bp-xprofile/bp-xprofile-admin.php:616
+#: bp-themes/bp-default/functions.php:524
+#: bp-xprofile/bp-xprofile-admin.php:616
 msgid "Edit"
 msgstr "Modifier"
 

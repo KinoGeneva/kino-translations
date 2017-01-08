@@ -25,30 +25,24 @@ function load_custom_plugin_translation_file( $mofile, $domain ) {
 	// filename ending
 	$file = '-' . get_locale() . '.mo';
 	
-	if ( 'buddypress' === $domain ) {
-	  
-	    $mofile = $folder.$domain.$file;
+	$plugins = array(
+		'buddypress',
+		'bxcft',
+		'wp-user-groups',
+		'kleo_framework',
+		'invite-anyone',
+		'bp-groups-taxo',
+		'bp-docs'
+	);
+	
+	foreach ($plugins as &$plugin) {
 	    
-	} else if ( 'bxcft' === $domain ) {
-	
-			$mofile = $folder.$domain.$file;
-			
-	} else if ( 'wp-user-groups' === $domain ) {
-	
-			$mofile = $folder.$domain.$file;
-			
-	} else if ( 'kleo_framework' === $domain ) {
-			
-			$mofile = $folder.$domain.$file;
-	
-	} else if ( 'invite-anyone' === $domain ) {
-			
-			$mofile = $folder.$domain.$file;
-	
-	} else if ( 'bp-groups-taxo' === $domain ) {
-			
-			$mofile = $folder.$domain.$file;
-	
+	    if ( $plugin === $domain ) {
+	    
+	    	    $mofile = $folder.$domain.$file;
+	    
+	    	}
+	    
 	}
 
   return $mofile;

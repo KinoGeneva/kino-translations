@@ -41,6 +41,10 @@ function load_custom_plugin_translation_file( $mofile, $domain ) {
 			
 			$mofile = $folder.$domain.$file;
 	
+	} else if ( 'invite-anyone' === $domain ) {
+			
+			$mofile = $folder.$domain.$file;
+	
 	}
 
   return $mofile;

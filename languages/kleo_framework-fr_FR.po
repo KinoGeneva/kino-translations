@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Kleo v2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-12-03 22:17+0100\n"
+"PO-Revision-Date: 2017-01-08 21:14+0100\n"
 "Last-Translator: ms-studio <code@ms-studio.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Oups, &ccedil;a c&rsquo;est plut&ocirc;t embarrassant..."
 #: 404.php:33 page-templates/404-page.php:31
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
-"On dirais que rien n&rsquo;a &eacute;t&eacute; trouv&eacute; &agrave; cet "
+"On dirait que rien n&rsquo;a &eacute;t&eacute; trouv&eacute; &agrave; cet "
 "endroit. Peut-&ecirc;tre devriez-vous tenter une recherche ?"
 
 # @ kleo_framework

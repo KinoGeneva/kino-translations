@@ -45,6 +45,10 @@ function load_custom_plugin_translation_file( $mofile, $domain ) {
 			
 			$mofile = $folder.$domain.$file;
 	
+	} else if ( 'bp-groups-taxo' === $domain ) {
+			
+			$mofile = $folder.$domain.$file;
+	
 	}
 
   return $mofile;

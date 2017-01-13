@@ -10,7 +10,7 @@ Author URI: http://collectifwp.ch/
 */
 
 /*
- * LE NOUVEAU CODE QUI MARCHE :
+ * PLUGINS : LE NOUVEAU CODE QUI MARCHE :
 
  * Replace 'textdomain' with your plugin's textdomain. e.g. 'woocommerce'. 
  * File to be named, for example, yourtranslationfile-en_GB.mo
@@ -36,13 +36,9 @@ function load_custom_plugin_translation_file( $mofile, $domain ) {
 	);
 	
 	foreach ($plugins as &$plugin) {
-	    
-	    if ( $plugin === $domain ) {
-	    
-	    	    $mofile = $folder.$domain.$file;
-	    
-	    	}
-	    
+		if ( $plugin === $domain ) {
+		  $mofile = $folder.$domain.$file;
+	  }
 	}
 
   return $mofile;
@@ -92,15 +88,7 @@ function kino_load_textdomain() {
 				'kinogeneva-translations/languages/'
 			);
 			
-			// BuddyPress Group Taxo
-			load_plugin_textdomain( 
-				'bp-groups-taxo',
-				false, 
-				'kinogeneva-translations/languages/'
-			);
-			
-			// ( 'Announcements', 'bpga' );
-			// __('Calendar', 'groupcalendar');
+
 }
 
 

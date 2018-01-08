@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - BuddyPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-15 15:32+0100\n"
+"PO-Revision-Date: 2018-01-08 16:45+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -6387,7 +6387,7 @@ msgstr "Ce projet n&#39;est pas accessible pour le moment."
 #: bp-templates/bp-legacy/buddypress-functions.php:1497
 #: bp-themes/bp-default/_inc/ajax.php:787
 msgid "Request Membership"
-msgstr "Adhérer"
+msgstr "Suivre le projet"
 
 #: bp-groups/bp-groups-template.php:3503
 #: bp-templates/bp-legacy/buddypress-functions.php:1484
@@ -6402,7 +6402,7 @@ msgstr "Accepter l&#39;invitation"
 #: bp-templates/bp-legacy/buddypress-functions.php:1495
 #: bp-themes/bp-default/_inc/ajax.php:785
 msgid "Join Group"
-msgstr "Adhérer à ce projet"
+msgstr "Suivre le projet"
 
 #: bp-groups/bp-groups-template.php:3449
 #: bp-templates/bp-legacy/buddypress-functions.php:1461
